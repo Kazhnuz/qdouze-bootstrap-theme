@@ -40,6 +40,11 @@ header h1 {
   text-align:center;
 }
 
+header h1 img {
+	max-width:100%;
+  height:auto;
+}
+
 .navbar {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.1);
   border-width:0px;
