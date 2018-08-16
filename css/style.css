@@ -1,0 +1,417 @@
+/* ------------------ GLOBAL STYLE ------------------- */
+
+#wrapper {
+  background: #64b5f6 url('../img/background.png') center bottom repeat-x;
+}
+
+.no-pills {
+	list-style:none;
+}
+
+.align-center {
+	text-align:center;
+}
+
+.align-left {
+	text-align:left;
+}
+
+.align-right {
+	text-align:right;
+}
+
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10  {
+	color:white;
+	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* ------------------ HEADERS ------------------- */
+
+
+header h1 {
+	border-style:none !important;
+	color:#FFF;
+	font-weight:700;
+	font-size:5.4em;
+	font-style:oblique;
+	text-shadow: 0px 2px 12px rgba(0, 0, 0, 0);
+	padding-bottom:0px;
+  margin:auto;
+  text-align:center;
+}
+
+.navbar {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  border-width:0px;
+  border-bottom:1px;
+  border-style:solid;
+  border-color:rgba(0,0,0,0.3)
+}
+
+.dropdown-menu {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ------------------ FOOTER ------------------- */
+
+footer {
+  margin-top:40px;
+}
+
+/* social media */
+
+ul.social {
+  font-size:1.5em;
+  padding-bottom:1em;
+  margin:auto;
+  text-align:center;
+}
+
+li.social-li {
+  list-style:none;
+  display:inline;
+}
+
+a.social-link {
+  color:#FFFFFF;
+  background-color:#000000;
+  padding:0.3em;
+  padding-left:0.36em;
+  padding-right:0.36em;
+  vertical-align:middle;
+  border-radius:100%;
+}
+
+a.social-link:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
+
+/* ------------------ CARDS ------------------- */
+
+.card {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+  border-width:0px;
+  margin-bottom:1.2em;
+}
+
+.card-shadow {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* header and titles */
+
+.card-header {
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+  border-top:1px solid;
+  border-left:1px solid;
+  border-right:1px solid;
+	border-width:1px;
+  border-color:rgba(0,0,0,0.3);
+  font-size:1.1em;
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+  font-weight:600;
+}
+
+.card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card h7,.card h8,.card h9,.card h10  {
+	color:#333;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.card-title, h7.card-title, h8.card-title, h9.card-title, h10.card-title  {
+  font-size:1em;
+  text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+  padding:0px;
+  margin:0px;
+  color:#FFF;
+  font-weight:600;
+}
+
+/* meta */
+
+.card-meta {
+	padding:1em;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.card-meta.media {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.card-meta .media-left .media-object {
+	height: 64px;
+	width: 64px;
+	border-radius: 10px;
+  margin-right:1em;
+}
+
+.card-meta author {
+	display:block;
+	font-weight:600;
+}
+
+.card-meta time {
+	display:block;
+	font-style:italic;
+}
+
+/* lists */
+
+.list-group-item {
+	border-style:none;
+	border-width:0px;
+	border-radius:0px;
+	background-color:transparent;
+}
+
+a.list-group-item:hover {
+	border-style:none;
+	border-width:0px;
+	border-radius:0px;
+	background-color:rgba(0,0,0,0.1);
+}
+
+
+/* ------------------ BUTTONS ------------------- */
+
+.btn {
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+  position:relative;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  top:1px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  position:relative;
+	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+  top:2px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+.btn-group {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-group .btn {
+	box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group .btn:hover {
+  position:relative;
+  top:1px;
+	box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group .btn:active, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active,
+.show > .btn.dropdown-toggle {
+  position:relative;
+	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2)!important;
+  top:2px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+.btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
+  position:relative;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px #75507b;
+  top:1px;
+  outline: none;
+}
+
+/* ------------------ ALERTS ------------------- */
+
+.alert {
+  border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+  color:rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+}
+
+.alert a, .alert-link {
+  color:rgba(0, 0, 0, 0.7);
+  font-weight:bold;
+}
+
+/* ------------------ BREADCRUMB ------------------- */
+
+.breadcrumb {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border-color:rgba(0,0,0,0.3);
+  border-width:1px;
+  background-color:#eeeeec;
+  margin-bottom:1.2em;
+}
+
+/* ------------------ PARTAGE RESEAUX SOCIAUX ------------------- */
+
+.share-buttons {
+  margin:15px;
+}
+
+.reagir {
+  text-align:right;
+}
+
+/* ------------------ PREVIEWS ------------------- */
+
+.previews-section {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.preview-container {
+  margin-bottom:1em;
+  padding:0.4em;
+  width:100%
+}
+
+
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){
+
+  .prev-col-2 .preview-container {
+    width:50%;
+  }
+
+  .prev-col-3 .preview-container {
+    width:33%;
+  }
+
+  .prev-col-4 .preview-container {
+    width:25%;
+  }
+
+}
+
+.card-preview {
+  width:100%;
+  
+  margin:auto;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.preview-link:hover {
+  text-decoration:none!important;
+}
+
+.preview-item {
+  
+  height:200px;
+  overflow:hidden;
+  font-size:0.9em;
+	line-height: 1.5em !important;
+  padding:0.2em;
+  text-align:justify;
+  background-color:rgba(0,0,0,0.05);
+  color:rgba(0,0,0,0.4);
+	position: relative;
+	
+	
+	display: flex;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.preview-content {
+  max-height:200px;
+}
+
+.preview-content > p {
+  width:100%;
+  margin:auto;
+}
+
+.preview-content > p.p-img {
+  text-align:center;
+  margin:auto;
+  padding:auto;
+  display: block;
+  width:100%;
+}
+
+.preview-content > p > img {
+  max-width:100%;
+  height:auto;
+  vertical-align:middle;
+  margin:auto;
+  text-align:center;
+}
+
+.preview-item h1, .preview-item h2, .preview-item h3, .preview-item h4, .preview-item h5, .preview-item h6, .preview-item h7 {
+  margin-bottom:0px;
+  max-width:100%;
+  display:none;
+}
+
+.preview-item h1 {
+  display:none;
+}
+
+.preview-overlay {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+	transition: opacity .5s;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+  backdrop-filter: none;
+}
+
+.preview-overlay h1 {
+  max-width:100%;
+  padding-top:0.3em;
+  margin:auto;
+  margin-bottom:0px;
+  text-align:center;
+  display:block;
+  font-size:2em;
+  color: white;
+}
+
+.preview-overlay h1,.preview-overlay h2,.preview-overlay h3,.preview-overlay h4,.preview-overlay h5,.preview-overlay h6,.preview-overlay h7,.preview-overlay h8,.preview-overlay h9,.preview-overlay h10  {
+	color:white;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+}
+
+.preview-item:hover .preview-overlay {
+  opacity: .9;
+  transition: opacity .5s;
+  backdrop-filter: blur(2px);
+}
+
+.comment-text {
+  margin-top:0.8em;
+}
+
+.card-preview time {
+  margin-bottom:0.4em;
+  display:block;
+}

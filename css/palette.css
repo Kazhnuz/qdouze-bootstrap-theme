@@ -1,0 +1,256 @@
+/* ------------------ COULEURS ------------------- */
+
+/* de base */
+
+
+.card-primary > .card-header, .btn-primary, .btn-primary:hover, .btn-primary:active, .badge-primary {
+	background-color:#7951c0;
+  color:#FFF;
+}
+
+.card-secondary > .card-header, .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .badge-secondary {
+	background-color:#4e63c9;
+	color:#FFF;
+}
+
+.card-danger > .card-header, .card-red > .card-header, .btn-danger, .btn-red, .badge-red, .badge-danger {
+	background-color:#e33d22;
+  color:#FFF;
+}
+
+.card-warning > .card-header, .card-orange > .card-header, .btn-warning, .btn-orange, .badge-warning, .badge-orange {
+	background-color:#eb790a;
+  color:#FFF;
+}
+
+.card-success > .card-header, .card-green > .card-header, .btn-success, .btn-green, .badge-success, .badge-green {
+	background-color:#75b82d;
+  color:#FFF;
+}
+
+.card-info > .card-header, .card-skyblue > .card-header, .btn-info, .btn-skyblue, .badge-info, .badge-skyblue {
+	background-color:#42a0f3;
+  color:#FFF;
+}
+
+.card-blue > .card-header, .btn-blue, .badge-blue {
+	background-color:#4e63c9;
+	color:#FFF
+}
+
+.card-purple > .card-header, .btn-purple, .badge-purple {
+	background-color:#7951c0;
+	color:#FFF
+}
+
+.card-dark > .card-header, .btn-dark, .badge-dark {
+	background-color:#6d6d6d;
+	color:#FFF
+}
+
+.card-light > .card-header, .btn-light, .badge-light {
+	background-color:#eeeeec;
+}
+
+.card-violet > .card-header, .btn-violet, .badge-violet {
+	background-color:#ce4dcd;
+  color:#FFF
+}
+
+.card-turquoise > .card-header, .btn-turquoise, .badge-turquoise {
+	background-color:#46bd9e;
+  color:#FFF
+}
+
+/* :hover */
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+	background-color:#9373cc;
+	color:#FFF;
+}
+
+.btn-secondary:hover, .btn-secondary:active, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
+.show > .btn-secondary.dropdown-toggle {
+	background-color:#7182d3;
+	color:#FFF;
+}
+
+.btn-blue:hover, .btn-blue:active {
+	background-color:#7182d3;
+	color:#FFF;
+}
+
+.btn-purple:hover, .btn-purple:active {
+	background-color:#9373cc;
+	color:#FFF;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
+.show > .btn-success.dropdown-toggle, .btn-green:hover, .btn-green:active {
+	background-color:#90c657;
+	color:#FFF;
+}
+
+.btn-info:hover, .btn-info:active, .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
+.show > .btn-info.dropdown-toggle, .btn-skyblue:hover, .btn-skyblue:active {
+	background-color:#67b3f5;
+	color:#FFF;
+}
+
+.btn-warning:hover, .btn-warning:active, .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
+.show > .btn-warning.dropdown-toggle, .btn-orange:hover, .btn-orange:active {
+	background-color:#ef933b;
+	color:#FFF;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
+.show > .btn-danger.dropdown-toggle, .btn-red:hover, .btn-red:active {
+	background-color:#e8634e;
+	color:#FFF;
+}
+
+.btn-dark:hover, .btn-dark:active, .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
+.show > .btn-dark.dropdown-toggle {
+	background-color:#8a8a8a;
+	color:#FFF;
+}
+
+.btn-light:hover, .btn-light:active, .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
+.show > .btn-light.dropdown-toggle  {
+	background-color:#dddddd;
+	color:#000;
+}
+
+.btn-violet:hover, .btn-violet:active {
+	background-color:#d770d7;
+	color:#FFF;
+}
+
+.btn-turquoise:hover, .btn-turquoise:active {
+	background-color:#6bcab1;
+	color:#FFF;
+}
+
+.bg-primary {
+  background-color:#7951c0!important;
+}
+
+/* alertes */
+
+.alert-primary {
+  background-color:#e4dcf2;
+}
+
+.alert-secondary {
+  background-color:#dbdff4;
+}
+
+.alert-info {
+  background-color:#d9ecfc;
+}
+
+.alert-success {
+  background-color:#e3f0d5;
+}
+
+.alert-warning {
+  background-color:#fbe4ce;
+}
+
+.alert-danger {
+  background-color:#f9d8d2;
+}
+
+
+.alert-violet {
+  background-color:#f5dbf5;
+}
+
+.alert-purple {
+  background-color:#e4dcf2;
+}
+
+.alert-blue {
+  background-color:#dbdff4;
+}
+
+.alert-skyblue {
+  background-color:#d9ecfc;
+}
+
+.alert-turquoise {
+  background-color:#daf1eb;
+}
+
+.alert-green {
+  background-color:#e3f0d5;
+}
+
+.alert-orange {
+  background-color:#fbe4ce;
+}
+
+.alert-red {
+  background-color:#f9d8d2;
+}
+
+.alert-light {
+  background-color:#ffffff;
+}
+
+.alert-dark {
+  background-color:#e1e1e1;
+}
+
+/* social */
+
+.btn-facebook {
+  background-color:#3B5998;
+  color:#FFF;
+}
+
+.btn-facebook:hover, .btn-facebook:active {
+	background-color:#627aac;
+	color:#FFF;
+}
+
+.btn-twitter {
+  background-color:#55ACEE;
+  color:#FFF;
+}
+
+.btn-twitter:hover, .btn-twitter:active {
+	background-color:#77bcf1;
+	color:#FFF;
+}
+
+.btn-googleplus {
+  background-color:#d34836;
+  color:#FFF;
+}
+
+.btn-googleplus:hover, .btn-googleplus:active {
+	background-color:#db6c5e;
+	color:#FFF;
+}
+
+.btn-diaspora {
+  background-color:#313739;
+  color:#FFF;
+}
+
+.btn-diaspora:hover, .btn-diaspora:active {
+	background-color:#5a5f60;
+	color:#FFF;
+}
+
+.btn-mastodon {
+  background-color:#282c37;
+  color:#FFF;
+}
+
+.btn-mastodon:hover, .btn-mastodon:active {
+	background-color:#53565f;
+	color:#FFF;
+}
