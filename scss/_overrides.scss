@@ -14,3 +14,12 @@ header {
   background: #EEE url('../img/background.png');
   margin-bottom:30px;
 }
+
+.card-meta {
+  @include border-radius();
+	box-shadow: $large-shadow, $inset-shadow;
+  border: 0;
+  background-color:#eeeeec;
+  margin-bottom:1.2em;
+  @include li-no-margin();
+}

@@ -965,3 +965,12 @@ header h1 {
 header {
   background: #EEE url("../img/background.png");
   margin-bottom: 30px; }
+
+.card-meta {
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 2px 10px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border: 0;
+  background-color: #eeeeec;
+  margin-bottom: 1.2em; }
+  .card-meta li {
+    margin: 0; }
