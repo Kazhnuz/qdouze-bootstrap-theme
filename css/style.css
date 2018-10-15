@@ -1,7 +1,10 @@
 /* ------------------ CUSTOM STYLE ------------------- */
 body {
-  background: #FFF url("../img/background.png");
+  background: #666 url("../img/background.png");
   padding: 30px; }
+
+#wrapper {
+  background-color: #FFF; }
 
 /* ------------------ GLOBAL STYLE ------------------- */
 .no-pills {
@@ -34,7 +37,7 @@ header h1 {
   line-height: 1.5em; }
 
 .navbar {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 10px transparent;
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-left: 0;
   border-right: 0; }
@@ -44,7 +47,7 @@ header h1 {
     margin: 0; }
 
 .dropdown-menu {
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 2px 6px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
 
 /* ------------------ FOOTER ------------------- */
 footer {
@@ -74,13 +77,13 @@ ul.social {
 
 /* ------------------ CARDS ------------------- */
 .card {
-  border-radius: 3px 3px 3px 3px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 2px 10px transparent;
   border: none;
   margin-bottom: 1.2em; }
 
 .card-shadow {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 2px 10px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
 
 .card h1, .card h2, .card h3, .card h4, .card h5, .card h6, .card h7, .card h8, .card h9, .card h10 {
   color: #333;
@@ -95,11 +98,11 @@ ul.social {
   font-weight: 600;
   border-radius: 0; }
   .card-header:first-child {
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 0px 0px 0px 0px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0; }
   .card-header:last-child {
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 0px 0px 0px 0px;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
   .card-header h1, .card-header h2, .card-header h3, .card-header h4, .card-header h5, .card-header h6, .card-header h7, .card-header h8, .card-header h9, .card-header h10 {
@@ -144,13 +147,13 @@ a.list-group-item:hover {
 /* ------------------ BUTTONS ------------------- */
 .btn {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px 3px 3px 3px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 2px 10px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
 
 .btn:hover {
   position: relative;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 6px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   top: 1px;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
@@ -161,11 +164,11 @@ a.list-group-item:hover {
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .btn-group {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 2px 10px transparent; }
 
 .btn-group .btn {
   box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
-  border-radius: 3px 3px 3px 3px; }
+  border-radius: 0px 0px 0px 0px; }
   .btn-group .btn:not(:first-child) {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0; }
@@ -187,16 +190,16 @@ a.list-group-item:hover {
 
 .btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
   position: relative;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 6px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px rgba(0, 0, 0, 0.3);
   top: 1px;
   outline: none; }
 
 /* ------------------ ALERTS ------------------- */
 .alert {
   border: 1px solid rgba(0, 0, 0, 0.3);
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 0px 0px 0px 0px;
   color: rgba(0, 0, 0, 0.7);
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 2px 10px transparent; }
 
 .alert a, .alert-link {
   color: rgba(0, 0, 0, 0.7);
@@ -204,8 +207,8 @@ a.list-group-item:hover {
 
 /* ------------------ BREADCRUMB ------------------- */
 .breadcrumb {
-  border-radius: 3px 3px 3px 3px;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 2px 10px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   border: 0;
   background-color: #eeeeec;
   margin-bottom: 1.2em; }
@@ -239,10 +242,10 @@ a.list-group-item:hover {
     width: 25%; } }
 
 .card-preview {
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 0px 0px 0px 0px;
   width: 100%;
   margin: auto;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 2px 10px transparent, inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
 
 .preview-link:hover {
   text-decoration: none !important; }
@@ -397,11 +400,11 @@ a, a:hover, a:active {
   color: #FFF; }
 
 .card-primary > .card-header {
-  background-color: #7951c0;
+  background-color: #e33d22;
   color: #FFF; }
 
 .card-secondary > .card-header {
-  background-color: #4e63c9;
+  background-color: #2D2D2D;
   color: #FFF; }
 
 .card-warning > .card-header {
@@ -513,17 +516,17 @@ a, a:hover, a:active {
     color: #FFF; }
 
 .btn-primary {
-  background-color: #7951c0;
+  background-color: #e33d22;
   color: #FFF; }
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:not(.disabled):not(:disabled):hover, .btn-primary:not(.disabled):not(:disabled):active, .btn-primary:not(.disabled):not(:disabled):focus {
-    background-color: #9676ce;
+    background-color: #e9654f;
     color: #FFF; }
 
 .btn-secondary {
-  background-color: #4e63c9;
+  background-color: #2D2D2D;
   color: #FFF; }
   .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:not(.disabled):not(:disabled):hover, .btn-secondary:not(.disabled):not(:disabled):active, .btn-secondary:not(.disabled):not(:disabled):focus {
-    background-color: #7585d5;
+    background-color: #474747;
     color: #FFF; }
 
 .btn-warning {
@@ -683,17 +686,17 @@ a, a:hover, a:active {
     color: #FFF; }
 
 .badge-primary {
-  background-color: #7951c0;
+  background-color: #e33d22;
   color: #FFF; }
   .badge-primary:hover, .badge-primary:active, .badge-primary:focus, a:hover > .badge-primary, a:active > .badge-primary, a:focus > .badge-primary, .badge-primary:not(.disabled):not(:disabled):hover, .badge-primary:not(.disabled):not(:disabled):active, .badge-primary:not(.disabled):not(:disabled):focus, a:hover > .badge-primary:not(.disabled):not(:disabled), a:active > .badge-primary:not(.disabled):not(:disabled), a:focus > .badge-primary:not(.disabled):not(:disabled) {
-    background-color: #9676ce;
+    background-color: #e9654f;
     color: #FFF; }
 
 .badge-secondary {
-  background-color: #4e63c9;
+  background-color: #2D2D2D;
   color: #FFF; }
   .badge-secondary:hover, .badge-secondary:active, .badge-secondary:focus, a:hover > .badge-secondary, a:active > .badge-secondary, a:focus > .badge-secondary, .badge-secondary:not(.disabled):not(:disabled):hover, .badge-secondary:not(.disabled):not(:disabled):active, .badge-secondary:not(.disabled):not(:disabled):focus, a:hover > .badge-secondary:not(.disabled):not(:disabled), a:active > .badge-secondary:not(.disabled):not(:disabled), a:focus > .badge-secondary:not(.disabled):not(:disabled) {
-    background-color: #7585d5;
+    background-color: #474747;
     color: #FFF; }
 
 .badge-warning {
@@ -778,11 +781,11 @@ a, a:hover, a:active {
   color: #FFF; }
 
 .bg-primary {
-  background-color: #7951c0 !important;
+  background-color: #e33d22 !important;
   color: #FFF; }
 
 .bg-secondary {
-  background-color: #4e63c9 !important;
+  background-color: #2D2D2D !important;
   color: #FFF; }
 
 .bg-warning {
@@ -855,11 +858,11 @@ a, a:hover, a:active {
   color: black; }
 
 .alert-primary {
-  background-color: #ded4ef;
+  background-color: #f7c8c0;
   color: black; }
 
 .alert-secondary {
-  background-color: #d7dcf3;
+  background-color: #868686;
   color: black; }
 
 .alert-warning {
@@ -919,10 +922,10 @@ a, a:hover, a:active {
   color: #77767b; }
 
 .text-primary {
-  color: #7951c0; }
+  color: #e33d22; }
 
 .text-secondary {
-  color: #4e63c9; }
+  color: #2D2D2D; }
 
 .text-warning {
   color: #eb790a; }
@@ -941,7 +944,7 @@ mark {
   background-color: #fcf2c0; }
 
 blockquote, pre {
-  border-color: #7951c0; }
+  border-color: #e33d22; }
 
 header h1 {
   padding: 2.33333em;
