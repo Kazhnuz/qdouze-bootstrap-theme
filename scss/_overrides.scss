@@ -28,4 +28,12 @@ header {
   font-size: calc(4mm + 0.4vw);
   line-height: 1.5em;
   padding: 1em;
+  font-weight:300;
+  p, em, p em {
+    font-weight:300;
+  }
+}
+
+.comment {
+  margin-bottom: 1.333em;
 }

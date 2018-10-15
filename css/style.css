@@ -978,4 +978,10 @@ header {
 .article-content {
   font-size: calc(4mm + 0.4vw);
   line-height: 1.5em;
-  padding: 1em; }
+  padding: 1em;
+  font-weight: 300; }
+  .article-content p, .article-content em, .article-content p em {
+    font-weight: 300; }
+
+.comment {
+  margin-bottom: 1.333em; }
