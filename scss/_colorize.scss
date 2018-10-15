@@ -1,0 +1,225 @@
+/* ------------------ COULEURS ------------------- */
+
+@mixin card-color($background-color, $text-color) {
+  & > .card-header { background-color: $background-color; color:$text-color; }
+}
+
+@mixin button-lighten($background-color, $text-color) {
+  background-color: lighten($background-color, 10%); 
+  color:$text-color;
+}
+
+@mixin button-color($background-color, $text-color) {
+  background-color: $background-color;
+  color: $text-color;
+  &, &:not(.disabled):not(:disabled) {
+    &:hover, &:active, &:focus {
+      @include button-lighten($background-color, $text-color);
+    }
+  }
+}
+
+@mixin badge-color($background-color, $text-color) {
+  background-color: $background-color;
+  color: $text-color;
+    &, &:not(.disabled):not(:disabled) {
+    &:hover, &:active, &:focus, a:hover > &, a:active > &, a:focus > & {
+      @include button-lighten($background-color, $text-color);
+    }
+  }
+}
+
+@mixin background-color($background-color, $text-color) {
+  background-color: $background-color!important;
+  color: $text-color;
+}
+
+@mixin alert-color($background-color) {
+  background-color: lighten($background-color, 35%);
+  color: darken($background-color, 80%);
+}
+
+@mixin text-color($text-color) {
+  color: $text-color;
+}
+
+a, a:hover, a:active {
+  color: $color-link;
+}
+
+::selection {
+  @include background-color($color-selection, #FFF);
+}
+::-moz-selection {
+  @include background-color($color-selection, #FFF);
+}
+
+/* CARDS */
+
+.card {
+  &-blue { @include card-color($color-blue, #FFF); }
+  &-violet { @include card-color($color-violet, #FFF); }
+  &-purple { @include card-color($color-purple, #FFF); }
+  &-red { @include card-color($color-red, #FFF); }
+  &-orange { @include card-color($color-orange, #FFF); }
+  &-green { @include card-color($color-green, #FFF); }
+  &-skyblue { @include card-color($color-skyblue, #FFF); }
+  &-dark { @include card-color($color-dark, #FFF); }
+  &-light { @include card-color($color-light, #111); }
+  &-turquoise { @include card-color($color-turquoise, #FFF); }
+  &-yellow { @include card-color($color-yellow, #FFF); }
+  &-brown { @include card-color($color-brown, #FFF); }
+  &-grey { @include card-color($color-grey, #FFF); }
+  
+  &-primary { @include card-color($color-primary, #FFF); }
+  &-secondary { @include card-color($color-secondary, #FFF); }
+  &-warning { @include card-color($color-warning, #FFF); }
+  &-danger { @include card-color($color-danger, #FFF); }
+  &-info { @include card-color($color-info, #FFF); }
+  &-success { @include card-color($color-success, #FFF); }
+}
+
+/* BUTTONS & BADGES */
+
+.btn {
+  &-blue { @include button-color($color-blue, #FFF); }
+  &-violet { @include button-color($color-violet, #FFF); }
+  &-purple { @include button-color($color-purple, #FFF); }
+  &-red { @include button-color($color-red, #FFF); }
+  &-orange { @include button-color($color-orange, #FFF); }
+  &-green { @include button-color($color-green, #FFF); }
+  &-skyblue { @include button-color($color-skyblue, #FFF); }
+  &-dark { @include button-color($color-dark, #FFF); }
+  &-light { @include button-color($color-light, #111); }
+  &-turquoise { @include button-color($color-turquoise, #FFF); }
+  &-yellow { @include button-color($color-yellow, #FFF); }
+  &-brown { @include button-color($color-brown, #FFF); }
+  &-grey { @include button-color($color-grey, #FFF); }
+  
+  &-primary { @include button-color($color-primary, #FFF); }
+  &-secondary { @include button-color($color-secondary, #FFF); }
+  &-warning { @include button-color($color-warning, #FFF); }
+  &-danger { @include button-color($color-danger, #FFF); }
+  &-info { @include button-color($color-info, #FFF); }
+  &-success { @include button-color($color-success, #FFF); }
+}
+
+/* social */
+
+.btn {
+  &-facebook {@include button-color(#3B5998, #FFF);}
+  &-twitter {@include button-color(#55ACEE, #FFF);}
+  &-googleplus {@include button-color(#d34836, #FFF);}
+  &-diaspora {@include button-color(#313739, #FFF);}
+  &-mastodon {@include button-color(#282c37, #FFF);}
+}
+
+/* BADGES */
+
+.badge {
+  &-blue { @include badge-color($color-blue, #FFF); }
+  &-violet { @include badge-color($color-violet, #FFF); }
+  &-purple { @include badge-color($color-purple, #FFF); }
+  &-red { @include badge-color($color-red, #FFF); }
+  &-orange { @include badge-color($color-orange, #FFF); }
+  &-green { @include badge-color($color-green, #FFF); }
+  &-skyblue { @include badge-color($color-skyblue, #FFF); }
+  &-dark { @include badge-color($color-dark, #FFF); }
+  &-light { @include badge-color($color-light, #111); }
+  &-turquoise { @include badge-color($color-turquoise, #FFF); }
+  &-yellow { @include badge-color($color-yellow, #FFF); }
+  &-brown { @include badge-color($color-brown, #FFF); }
+  &-grey { @include badge-color($color-grey, #FFF); }
+  
+  &-primary { @include badge-color($color-primary, #FFF); }
+  &-secondary { @include badge-color($color-secondary, #FFF); }
+  &-warning { @include badge-color($color-warning, #FFF); }
+  &-danger { @include badge-color($color-danger, #FFF); }
+  &-info { @include badge-color($color-info, #FFF); }
+  &-success { @include badge-color($color-success, #FFF); }
+}
+
+/* BACKGROUNDS */
+
+.bg {
+  &-blue { @include background-color($color-blue, #FFF); }
+  &-violet { @include background-color($color-violet, #FFF); }
+  &-purple { @include background-color($color-purple, #FFF); }
+  &-red { @include background-color($color-red, #FFF); }
+  &-orange { @include background-color($color-orange, #FFF); }
+  &-green { @include background-color($color-green, #FFF); }
+  &-skyblue { @include background-color($color-skyblue, #FFF); }
+  &-dark { @include background-color($color-dark, #FFF); }
+  &-light { @include background-color($color-light, #111); }
+  &-turquoise { @include background-color($color-turquoise, #FFF); }
+  &-yellow { @include background-color($color-yellow, #FFF); }
+  &-brown { @include background-color($color-brown, #FFF); }
+  &-grey { @include background-color($color-grey, #FFF); }  
+  
+  &-primary { @include background-color($color-primary, #FFF); }
+  &-secondary { @include background-color($color-secondary, #FFF); }
+  &-warning { @include background-color($color-warning, #FFF); }
+  &-danger { @include background-color($color-danger, #FFF); }
+  &-info { @include background-color($color-info, #FFF); }
+  &-success { @include background-color($color-success, #FFF); }
+}
+
+/* ALERTS */
+
+.alert {
+  &-blue { @include alert-color($color-blue); }
+  &-violet { @include alert-color($color-violet); }
+  &-purple { @include alert-color($color-purple); }
+  &-red { @include alert-color($color-red); }
+  &-orange { @include alert-color($color-orange); }
+  &-green { @include alert-color($color-green); }
+  &-skyblue { @include alert-color($color-skyblue); }
+  &-dark { @include alert-color($color-dark); }
+  &-light { @include alert-color($color-light); }
+  &-turquoise { @include alert-color($color-turquoise); }
+  &-yellow { @include alert-color($color-yellow); }
+  &-brown { @include alert-color($color-brown); }
+  &-grey { @include alert-color($color-grey); }  
+  
+  &-primary { @include alert-color($color-primary); }
+  &-secondary { @include alert-color($color-secondary); }
+  &-warning { @include alert-color($color-warning); }
+  &-danger { @include alert-color($color-danger); }
+  &-info { @include alert-color($color-info); }
+  &-success { @include alert-color($color-success); }
+}
+
+/* TEXT */
+
+.text {
+  &-blue { @include text-color($color-blue); }
+  &-violet { @include text-color($color-violet); }
+  &-purple { @include text-color($color-purple); }
+  &-red { @include text-color($color-red); }
+  &-orange { @include text-color($color-orange); }
+  &-green { @include text-color($color-green); }
+  &-skyblue { @include text-color($color-skyblue); }
+  &-dark { @include text-color($color-dark); }
+  &-light { @include text-color($color-light); }
+  &-turquoise { @include text-color($color-turquoise); }
+  &-yellow { @include text-color($color-yellow); }
+  &-brown { @include text-color($color-brown); }
+  &-grey { @include text-color($color-grey); }  
+  
+  &-primary { @include text-color($color-primary); }
+  &-secondary { @include text-color($color-secondary); }
+  &-warning { @include text-color($color-warning); }
+  &-danger { @include text-color($color-danger); }
+  &-info { @include text-color($color-info); }
+  &-success { @include text-color($color-success); }
+}
+
+/* Clear-Typography overrides */
+
+mark {
+  background-color: lighten($color-mark, 30%)
+}
+
+blockquote, pre {
+  border-color: $color-primary;
+}
