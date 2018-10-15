@@ -23,3 +23,9 @@ header {
   margin-bottom:1.2em;
   @include li-no-margin();
 }
+
+.article-content {
+  font-size: calc(4mm + 0.4vw);
+  line-height: 1.5em;
+  padding: 1em;
+}
