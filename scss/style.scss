@@ -30,6 +30,13 @@ body {
   padding: 30px;
 }
 
+@media (max-width: 767.98px) {
+  body {
+    background: none;
+    padding: 0;
+  }
+}
+
 #wrapper {
   background-color: #FFF
 }
