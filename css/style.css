@@ -1,6 +1,7 @@
 /* ------------------ CUSTOM STYLE ------------------- */
-#wrapper {
-  background: #FFF url("../img/background.png"); }
+body {
+  background: #FFF url("../img/background.png");
+  padding: 30px; }
 
 /* ------------------ GLOBAL STYLE ------------------- */
 .no-pills {

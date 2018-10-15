@@ -25,8 +25,12 @@ $color-mark: $color-yellow;
   border-radius: $border-radius $border-radius $border-radius $border-radius;
 }
 
-#wrapper {
+body {
   background: #FFF url('../img/background.png');
+  padding: 30px;
+}
+
+#wrapper {
 }
 
 @import 'commons';
