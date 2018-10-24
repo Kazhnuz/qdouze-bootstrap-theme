@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html <?php language_attributes(); ?>>
 <head>
-	<meta charset="utf-8">
-	<title>Blue Sky, by Kazhnuz</title>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title><?php bloginfo('name'); ?><?php wp_title(' - '); ?></title>
+	<meta name="description" content="<?php bloginfo('name'); echo " - "; bloginfo('description');?>" />
+
+  <?php wp_head(); ?>
 
 		<!-- mon icon -->
 	<link rel="shortcut icon" href="img/favicon.png">
