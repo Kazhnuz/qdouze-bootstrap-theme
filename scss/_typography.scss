@@ -218,9 +218,11 @@ mark {
   border-radius: 0.2em;
   padding:0 0.2em 0 0.2em;
   
-  background-color: $color-primary;
+  background-color: lighten($color-mark, 30%);
   color: inherit;
 }
+
+
 
 .night-mode mark {
   background-color: $color-primary;

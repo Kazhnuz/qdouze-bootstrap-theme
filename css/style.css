@@ -272,7 +272,7 @@ pre, .pre, .well-pre {
 mark {
   border-radius: 0.2em;
   padding: 0 0.2em 0 0.2em;
-  background-color: #e33d22;
+  background-color: #fcf2c0;
   color: inherit; }
 
 .night-mode mark {
@@ -1214,12 +1214,6 @@ a.list-group-item:hover {
   color: #75b82d; }
 
 /* Clear-Typography overrides */
-mark {
-  background-color: #fcf2c0; }
-
-blockquote, pre {
-  border-color: #e33d22; }
-
 .card-meta {
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0), inset 0px -2px 0px rgba(0, 0, 0, 0.2);

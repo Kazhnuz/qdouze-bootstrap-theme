@@ -204,11 +204,3 @@
 }
 
 /* Clear-Typography overrides */
-
-mark {
-  background-color: lighten($color-mark, 30%)
-}
-
-blockquote, pre {
-  border-color: $color-primary;
-}
