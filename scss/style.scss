@@ -5,34 +5,13 @@
 //  Theme made for Wordpress for https://quarante-douze.net
 //  
 
-@import 'typography';
-
 @import 'palette';
 
+@import 'definitions';
+
+@import 'typography';
+
 /* ------------------ CUSTOM STYLE ------------------- */
-
-$large-shadow: 0px 2px 10px rgba(0, 0, 0, 0);
-$narrow-shadow: 0px 2px 6px rgba(0, 0, 0, 0);
-$inset-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
-$inset-shadow-inverted: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
-$inset-relief: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
-
-$border-radius: 0px;
-$border-size: 1px;
-
-$color-primary: $color-red;
-$color-secondary: $color-dark;
-$color-link: $color-blue;
-$color-selection: $color-blue;
-$color-mark: $color-yellow;
-
-@mixin borders() {
-  border: $border-size solid rgba(0, 0, 0, 0.3)
-}
-
-@mixin border-radius() {
-  border-radius: $border-radius $border-radius $border-radius $border-radius;
-}
 
 body {
   background: #666 url('../img/background.png');
