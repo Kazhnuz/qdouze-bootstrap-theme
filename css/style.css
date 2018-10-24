@@ -282,6 +282,64 @@ mark {
   width: 100%;
   display: block; }
 
+/* 2.6.1 - Colored texts */
+.text-blue {
+  color: #4e63c9; }
+
+.text-violet {
+  color: #ce4dcd; }
+
+.text-purple {
+  color: #7951c0; }
+
+.text-red {
+  color: #e33d22; }
+
+.text-orange {
+  color: #eb790a; }
+
+.text-green {
+  color: #75b82d; }
+
+.text-skyblue {
+  color: #42a0f3; }
+
+.text-dark {
+  color: #2D2D2D; }
+
+.text-light {
+  color: #eeeeec; }
+
+.text-turquoise {
+  color: #46bd9e; }
+
+.text-yellow {
+  color: #f6d32d; }
+
+.text-brown {
+  color: #986a44; }
+
+.text-grey {
+  color: #77767b; }
+
+.text-primary {
+  color: #e33d22; }
+
+.text-secondary {
+  color: #2D2D2D; }
+
+.text-warning {
+  color: #eb790a; }
+
+.text-danger {
+  color: #e33d22; }
+
+.text-info {
+  color: #42a0f3; }
+
+.text-success {
+  color: #75b82d; }
+
 /*
  *  3 - Global elements ( _global.scss )
  *  
@@ -1153,65 +1211,6 @@ a.list-group-item:hover {
   background-color: #cdebad;
   color: black; }
 
-/* TEXT */
-.text-blue {
-  color: #4e63c9; }
-
-.text-violet {
-  color: #ce4dcd; }
-
-.text-purple {
-  color: #7951c0; }
-
-.text-red {
-  color: #e33d22; }
-
-.text-orange {
-  color: #eb790a; }
-
-.text-green {
-  color: #75b82d; }
-
-.text-skyblue {
-  color: #42a0f3; }
-
-.text-dark {
-  color: #2D2D2D; }
-
-.text-light {
-  color: #eeeeec; }
-
-.text-turquoise {
-  color: #46bd9e; }
-
-.text-yellow {
-  color: #f6d32d; }
-
-.text-brown {
-  color: #986a44; }
-
-.text-grey {
-  color: #77767b; }
-
-.text-primary {
-  color: #e33d22; }
-
-.text-secondary {
-  color: #2D2D2D; }
-
-.text-warning {
-  color: #eb790a; }
-
-.text-danger {
-  color: #e33d22; }
-
-.text-info {
-  color: #42a0f3; }
-
-.text-success {
-  color: #75b82d; }
-
-/* Clear-Typography overrides */
 .card-meta {
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0), inset 0px -2px 0px rgba(0, 0, 0, 0.2);

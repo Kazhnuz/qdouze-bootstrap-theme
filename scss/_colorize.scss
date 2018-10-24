@@ -39,10 +39,6 @@
   color: darken($background-color, 80%);
 }
 
-@mixin text-color($text-color) {
-  color: $text-color;
-}
-
 /* CARDS */
 
 .card {
@@ -177,30 +173,3 @@
   &-info { @include alert-color($color-info); }
   &-success { @include alert-color($color-success); }
 }
-
-/* TEXT */
-
-.text {
-  &-blue { @include text-color($color-blue); }
-  &-violet { @include text-color($color-violet); }
-  &-purple { @include text-color($color-purple); }
-  &-red { @include text-color($color-red); }
-  &-orange { @include text-color($color-orange); }
-  &-green { @include text-color($color-green); }
-  &-skyblue { @include text-color($color-skyblue); }
-  &-dark { @include text-color($color-dark); }
-  &-light { @include text-color($color-light); }
-  &-turquoise { @include text-color($color-turquoise); }
-  &-yellow { @include text-color($color-yellow); }
-  &-brown { @include text-color($color-brown); }
-  &-grey { @include text-color($color-grey); }  
-  
-  &-primary { @include text-color($color-primary); }
-  &-secondary { @include text-color($color-secondary); }
-  &-warning { @include text-color($color-warning); }
-  &-danger { @include text-color($color-danger); }
-  &-info { @include text-color($color-info); }
-  &-success { @include text-color($color-success); }
-}
-
-/* Clear-Typography overrides */
