@@ -26,6 +26,7 @@
 	box-shadow: $large-shadow, $inset-shadow;
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
 	@include button-color($color-light, #111);
+	font-weight: 600;
   
   &:hover {
 	box-shadow: $narrow-shadow, $inset-shadow;
