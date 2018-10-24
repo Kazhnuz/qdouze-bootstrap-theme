@@ -1,5 +1,5 @@
 <?php 
-/* function.php
+/* functions.php
  *
  * All the function of Quarante-Douze
  *
@@ -15,3 +15,5 @@
         'before_title' => '<h1 class="section card-header">',
         'after_title' => '</h1>',
     ));
+    
+
