@@ -110,6 +110,11 @@
   background-color: #75b82d !important;
   color: #FFF; }
 
+/* 1.3 - Screen Reader */
+@media screen {
+  .screen-reader-text {
+    display: none; } }
+
 /*
  *  2 - Typography ( _typography.scss )
  *  

@@ -79,3 +79,11 @@ $color-font: #444;
   &-info { @include background-color($color-info, #FFF); }
   &-success { @include background-color($color-success, #FFF); }
 }
+
+/* 1.3 - Screen Reader */
+
+@media screen {
+  .screen-reader-text {
+    display: none;
+  }
+}
