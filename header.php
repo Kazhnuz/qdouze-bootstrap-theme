@@ -6,6 +6,10 @@
 	<title><?php bloginfo('name'); ?><?php wp_title(' - '); ?></title>
 	<meta name="description" content="<?php bloginfo('name'); echo " - "; bloginfo('description');?>" />
 
+  <?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">	
+	<?php endif; ?>
+
   <?php wp_head(); ?>
 
 		<!-- mon icon -->
