@@ -1,20 +1,3 @@
-header h1 {
-	padding:2.33333em;
-	line-height:1em;
-	font-size:1em;
-  margin:auto;
-  text-align:center;
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-header {
-  background: #EEE url('../img/background.png');
-  margin-bottom:30px;
-}
-
 .card-meta {
   @include border-radius();
 	box-shadow: $large-shadow, $inset-shadow;
