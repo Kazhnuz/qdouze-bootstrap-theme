@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
 
 <div class="col-md-9">
 
