@@ -6,7 +6,7 @@
 */
 
 @mixin button-lighten($background-color, $text-color) {
-  background-color: lighten($background-color, 10%); 
+  background-color: lighten($background-color, 15%); 
   color:$text-color;
 }
 
@@ -28,17 +28,13 @@
 	@include button-color($color-light, #111);
   
   &:hover {
-  position:relative;
 	box-shadow: $narrow-shadow, $inset-shadow;
-  top:1px;
 	@include borders();
 	text-decoration: none;
   }
   
   &:active {
-  position:relative;
 	box-shadow: $inset-shadow-inverted;
-  top:2px;
 	@include borders();
 	text-decoration: none;
   }
@@ -85,23 +81,17 @@
 }
 
 .btn-group .btn:hover {
-  position:relative;
-  top:1px;
 	box-shadow: $inset-shadow;
 }
 
 .btn-group .btn:active, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active,
 .show > .btn.dropdown-toggle {
-  position:relative;
 	box-shadow: $inset-shadow-inverted!important;
-  top:2px;
 	@include borders();
 }
 
 .btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
-  position:relative;
 	box-shadow: $narrow-shadow, $inset-shadow, 0px 0px 0px 2px rgba(0, 0, 0, 0.3);
-  top:1px;
   outline: none;
 }
 
