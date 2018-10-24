@@ -53,6 +53,36 @@ header {
     padding-bottom:0;
   }
   @include li-no-margin();
+  
+  .form-control {
+    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, background-color, opacity .15s ease-in-out, background-color .15s ease-in-out, color .15s ease-in-out;
+    @include border-radius();
+    &::placeholder {
+      color: #FFF;
+      transition: color .15s ease-in-out;
+    }
+    &:hover {
+      opacity: 0.7;
+      background-color: #FFF;
+      color: #444;
+      &::placeholder {
+      color: #444;
+      }
+    }
+    &:focus, &:hover:focus {
+      opacity: 1;
+      background-color: #FFF;
+      color: #444;
+      box-shadow: $inset-shadow-inverted;
+      &::placeholder {
+      color: #444;
+      }
+    }
+  }
 }
 
 .dropdown-menu {

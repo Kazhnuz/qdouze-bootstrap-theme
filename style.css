@@ -515,6 +515,29 @@ header {
     padding-bottom: 0; }
   .navbar li {
     margin: 0; }
+  .navbar .form-control {
+    opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, background-color, opacity .15s ease-in-out, background-color .15s ease-in-out, color .15s ease-in-out;
+    border-radius: 0px 0px 0px 0px; }
+    .navbar .form-control::placeholder {
+      color: #FFF;
+      transition: color .15s ease-in-out; }
+    .navbar .form-control:hover {
+      opacity: 0.7;
+      background-color: #FFF;
+      color: #444; }
+      .navbar .form-control:hover::placeholder {
+        color: #444; }
+    .navbar .form-control:focus, .navbar .form-control:hover:focus {
+      opacity: 1;
+      background-color: #FFF;
+      color: #444;
+      box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2); }
+      .navbar .form-control:focus::placeholder, .navbar .form-control:hover:focus::placeholder {
+        color: #444; }
 
 .dropdown-menu {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
