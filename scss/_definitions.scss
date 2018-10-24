@@ -22,6 +22,8 @@ $color-link: $color-blue;
 $color-selection: $color-blue;
 $color-mark: $color-yellow;
 
+$color-font: #444;
+
 @mixin borders() {
   border: $border-size solid rgba(0, 0, 0, 0.3)
 }

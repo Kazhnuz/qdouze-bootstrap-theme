@@ -1,19 +1,27 @@
+/*
+ *  2 - Typography ( _typography.scss )
+ *  
+ *  This part of the (s)css handle everything related to the typography
+ *  like paragraphs, blockquote, etc.
+ *
+*/
+
 @import 'font-face';
 
-/* ------------------ GLOBAL STYLE ------------------- */
+/* 2.2 - Global Typography */
 
 @mixin paragraph() {
   padding:0;
   padding-bottom:1.5em;
-  margin:0;
+  margin: 0;
 }
 
 body {
 	font-family: OpenSans, sans-serif;
 	text-align: left;
-	font-size: 4mm;
+	font-size:  4mm;
 	line-height: 1.5em; 
-	color: #444;
+	color: $color-font;
 	font-weight: 400;
 }
 
@@ -65,7 +73,7 @@ ol {
 ::selection { background: #2484c1; color: #fff; }
 ::-moz-selection { background: #2484c1; color: #fff; }
 
-/* ------------------ WRAPPERS ------------------- */
+/* 2.2 - Text Wrapper */
 
 .text-wrapper {
   font-size: calc(2.5mm + 1vw);
@@ -111,7 +119,7 @@ ol {
   }
 }
 
-/* ------------------ TITLES ------------------- */
+/* 2.3 - Titles */
 
 @mixin title($size, $height, $top, $bottom, $weight) {
 	font-size: $size; 
@@ -153,7 +161,7 @@ h6 {
   @include title(1.1em, 1.4em, 0.1em, 1.2em, 600);
 }
 
-/* ------------------ HR ------------------- */
+/* 2.4 - hr */
 
 hr {
 	border-top: 0px;
@@ -165,7 +173,7 @@ hr {
 	margin: 1.5em;
 }
 
-/* ------------------ QUOTE ------------------- */
+/* 2.5 - Wells and quotes */
 
 @mixin well() {
   border-width: 0 0 0 0.2em;
@@ -178,7 +186,7 @@ hr {
 	max-width: 100%;
 }
 
-blockquote {
+blockquote, .quote, .well {
   @include well();
 	border-color: rgba(1, 1, 1, 0.15);
 	
@@ -187,7 +195,7 @@ blockquote {
   }
 }
 
-pre {
+pre, .pre, .well-pre {
   @include well();
 	border-color: rgba(1,1,1,0.20);
 	background-color:#EEE;
@@ -201,21 +209,19 @@ pre {
 
 
 
-/* ------------------ SPECIAL STYLING ------------------- */
+/* 2.6 - Special styling */
 
 mark {
   border-radius: 0.2em;
   padding:0 0.2em 0 0.2em;
   
-  background-color:rgba(255,255,0,0.33);
+  background-color: $color-primary;
   color: inherit;
 }
 
 .night-mode mark {
-  background-color:rgba(128,128,0,0.66);
+  background-color: $color-primary;
 }
-
-/* ------------------ SPECIAL STYLING ------------------- */
 
 .time {
 	font-style: italic;
