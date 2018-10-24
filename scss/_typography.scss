@@ -187,20 +187,15 @@ hr {
 	padding: 0.75em 1em 0.75em 1em;
 	
 	max-width: 100%;
+	border-color: $color-primary;
 }
 
 blockquote, .quote, .well {
   @include well();
-	border-color: rgba(1, 1, 1, 0.15);
-	
-	.night-mode & {
-    border-color: rgba(255, 255, 255, 0.15)
-  }
 }
 
 pre, .pre, .well-pre {
   @include well();
-	border-color: rgba(1,1,1,0.20);
 	background-color:#EEE;
 	overflow-x: scroll;
 	
@@ -221,8 +216,6 @@ mark {
   background-color: lighten($color-mark, 30%);
   color: inherit;
 }
-
-
 
 .night-mode mark {
   background-color: $color-primary;

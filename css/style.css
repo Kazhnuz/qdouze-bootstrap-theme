@@ -250,9 +250,7 @@ blockquote, .quote, .well {
   margin: -0.75em -0.2em 0.75em -0.2em;
   padding: 0.75em 1em 0.75em 1em;
   max-width: 100%;
-  border-color: rgba(1, 1, 1, 0.15); }
-  .night-mode blockquote, .night-mode .quote, .night-mode .well {
-    border-color: rgba(255, 255, 255, 0.15); }
+  border-color: #e33d22; }
 
 pre, .pre, .well-pre {
   border-width: 0 0 0 0.2em;
@@ -261,7 +259,7 @@ pre, .pre, .well-pre {
   margin: -0.75em -0.2em 0.75em -0.2em;
   padding: 0.75em 1em 0.75em 1em;
   max-width: 100%;
-  border-color: rgba(1, 1, 1, 0.2);
+  border-color: #e33d22;
   background-color: #EEE;
   overflow-x: scroll; }
   .night-mode pre, .night-mode .pre, .night-mode .well-pre {
