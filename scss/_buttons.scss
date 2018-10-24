@@ -96,6 +96,22 @@
   outline: none;
 }
 
+.page-numbers {
+  @extend .btn;
+  @extend .btn-grey;
+  padding: 0.5em 1em 0.5em 1em;
+  margin-top: 0.1em;
+  color: #FFF;
+  
+  &.dots {
+    border: none;
+    background-color: transparent!important;
+    box-shadow: none;
+    color: #444;
+    text-shadow: none;
+  }
+}
+
 /* 5.1 - Réseaux sociaux */
 
 .share-buttons {

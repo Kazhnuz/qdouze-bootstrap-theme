@@ -189,3 +189,12 @@
     font-style: italic;
   }
 }
+
+.navigation {
+  .pagination {
+    padding-top: 2em;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
