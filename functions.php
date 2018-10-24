@@ -16,4 +16,27 @@
       'after_title'   => '</h1>',
     ));
     
+/* 2. Niveau support (for featured posts) */
 
+register_taxonomy(
+  'niveau',
+  'post',
+  array(
+    'label' => 'Niveau',
+      'labels' => array(
+      'name' => 'Niveaux',
+      'singular_name' => 'Niveaux',
+      'all_items' => 'Tous les niveaux',
+      'edit_item' => 'Éditer le niveau',
+      'view_item' => 'Voir le niveau',
+      'update_item' => 'Mettre à jour le niveau',
+      'add_new_item' => 'Ajouter un niveau',
+      'new_item_name' => 'Nouveau niveau',
+      'search_items' => 'Rechercher parmi les niveaux',
+      'popular_items' => 'Niveaux les plus utilisés'
+    ),
+  'hierarchical' => false
+  )
+);
+
+register_taxonomy_for_object_type( 'niveau', 'post' );

@@ -172,5 +172,9 @@
   &-danger { @include badge-color($color-danger, #FFF); }
   &-info { @include badge-color($color-info, #FFF); }
   &-success { @include badge-color($color-success, #FFF); }
+  
+  &-category { @include badge-color($color-category, #FFF); }
+  &-tag { @include badge-color($color-tag, #FFF); }
+  
 }
 
