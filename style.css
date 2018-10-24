@@ -1307,3 +1307,28 @@ a.list-group-item:hover {
 .card-preview time {
   margin-bottom: 0.4em;
   display: block; }
+
+/* 2.1.1 - Article list */
+.list-article {
+  display: flex;
+  flex-direction: row; }
+  .list-article-thumbnail {
+    display: block;
+    padding-top: 0.35em;
+    max-width: 200px; }
+    .list-article-thumbnail img {
+      max-width: 100%;
+      height: auto; }
+  .list-article-main {
+    padding-left: 1em; }
+  .list-article-title {
+    font-family: Teko;
+    font-weight: 600;
+    margin-bottom: 0em; }
+    .list-article-title a {
+      color: #444; }
+  .list-article-metadata {
+    display: flex;
+    justify-content: space-between; }
+  .list-article-content {
+    font-style: italic; }

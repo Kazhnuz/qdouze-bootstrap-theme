@@ -153,3 +153,39 @@
   margin-bottom:0.4em;
   display:block;
 }
+
+/* 2.1.1 - Article list */
+
+.list-article {
+  display: flex;
+  flex-direction: row;
+  &-thumbnail {
+    display: block;
+    padding-top: 0.35em;
+    max-width: 200px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  &-main {
+    padding-left:1em;
+  }
+  &-title {
+    font-family: Teko;
+    font-weight: 600;
+    margin-bottom: 0em;
+    a {
+      color: #444;
+    }
+  }
+  &-metadata {
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  &-content {
+    font-style: italic;
+  }
+}
