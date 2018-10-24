@@ -556,28 +556,18 @@ body {
 header {
   background: #EEE url("../img/background.png");
   margin-bottom: 30px; }
-
-header h1 {
-  border-style: none !important;
-  color: #FFF;
-  font-weight: 700;
-  font-size: 5.4em;
-  font-style: oblique;
-  text-shadow: 0px 2px 12px rgba(0, 0, 0, 0);
-  padding-bottom: 0px;
-  margin: auto;
-  text-align: center;
-  line-height: 1.5em; }
-
-header h1 {
-  padding: 2.33333em;
-  line-height: 1em;
-  font-size: 1em;
-  margin: auto;
-  text-align: center; }
-  header h1 img {
-    max-width: 100%;
-    height: auto; }
+  header h1 {
+    border-style: none !important;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1em;
+    padding-bottom: 0px;
+    padding: 2.33333em;
+    margin: auto;
+    text-align: center; }
+    header h1 img {
+      max-width: 100%;
+      height: auto; }
 
 .navbar {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0);
