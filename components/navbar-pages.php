@@ -17,6 +17,12 @@
         }
       }?>
     </ul>
+    
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="form">
+        <?php include(TEMPLATEPATH . '/components/searchform.php'); ?>
+      </li>
+    </ul>
   </div>
   </div>
 </nav>
