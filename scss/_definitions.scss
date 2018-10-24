@@ -87,3 +87,22 @@ $color-font: #444;
     display: none;
   }
 }
+
+/* 2. Forms elements */
+
+select {
+  @include borders();
+  @include border-radius();
+  
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: $color-font;
+  background-color: #fff;
+  background-clip: padding-box;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 0.75rem;
+}

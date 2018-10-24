@@ -115,6 +115,22 @@
   .screen-reader-text {
     display: none; } }
 
+/* 2. Forms elements */
+select {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0px 0px 0px 0px;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #444;
+  background-color: #fff;
+  background-clip: padding-box;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-top: 0.75rem; }
+
 /*
  *  2 - Typography ( _typography.scss )
  *  
