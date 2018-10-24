@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="col-md-9">
+<main class="col-md-8">
   <h1 class="page-title"><i class="fa fa-fw fa-star"></i> À la une</h1>
 	<?php include(TEMPLATEPATH . '/components/featured.php'); ?>
 
