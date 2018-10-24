@@ -334,6 +334,12 @@ h1, h2, h3, h4, h5, h6, h7 {
       font-size: 0.55em;
       position: relative;
       top: -0.175em; }
+    h1.page-title-flex, h2.page-title-flex, h3.page-title-flex, h4.page-title-flex, h5.page-title-flex, h6.page-title-flex, h7.page-title-flex {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      h1.page-title-flex > span, h1.page-title-flex > i, h1.page-title-flex > a, h2.page-title-flex > span, h2.page-title-flex > i, h2.page-title-flex > a, h3.page-title-flex > span, h3.page-title-flex > i, h3.page-title-flex > a, h4.page-title-flex > span, h4.page-title-flex > i, h4.page-title-flex > a, h5.page-title-flex > span, h5.page-title-flex > i, h5.page-title-flex > a, h6.page-title-flex > span, h6.page-title-flex > i, h6.page-title-flex > a, h7.page-title-flex > span, h7.page-title-flex > i, h7.page-title-flex > a {
+        display: block; }
 
 h1 {
   font-size: 2.33333em;
