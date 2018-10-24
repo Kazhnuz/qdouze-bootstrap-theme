@@ -13,10 +13,10 @@
 		<link rel="shortcut icon" href="img/favicon.png">
 
 		<!-- framework utilisés -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/fork-awesome.css" rel="stylesheet">
+		<link href="<?php echo get_template_directory_uri() . "/css/bootstrap.min.css"; ?>" rel="stylesheet"/>
+	  <link href="<?php echo get_template_directory_uri() . "/css/fork-awesome.min.css"; ?>" rel="stylesheet"/>
 
-		<link href="style.css" rel="stylesheet">
+		<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet"/>
 	</head>
 
 	<body>
