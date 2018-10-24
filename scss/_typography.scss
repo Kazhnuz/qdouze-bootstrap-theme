@@ -1,0 +1,225 @@
+@import 'font-face';
+
+/* ------------------ GLOBAL STYLE ------------------- */
+
+@mixin paragraph() {
+  padding:0;
+  padding-bottom:1.5em;
+  margin:0;
+}
+
+body {
+	font-family: OpenSans, sans-serif;
+	text-align: left;
+	font-size: 4mm;
+	line-height: 1.5em; 
+	color: #444;
+	font-weight: 400;
+}
+
+.night-mode {
+  color:#BBB;
+}
+
+strong {
+	font-weight: 600;
+}
+
+em {
+	font-style: italic;
+}
+
+a {
+  color:#2484c1;
+  text-decoration:none;
+}
+
+p {
+  @include paragraph();
+  &:last-child {
+    padding-bottom:0;
+  }
+}
+
+ul {
+  @include paragraph();
+  ul {
+    padding-bottom:0;
+  }
+  li {
+    margin-left:1.5em;
+  }
+}
+
+ol {
+  @include paragraph();
+  ol {
+    padding-bottom:0;
+  }
+  li {
+    margin-left:1.5em;
+  }
+}
+
+
+::selection { background: #2484c1; color: #fff; }
+::-moz-selection { background: #2484c1; color: #fff; }
+
+/* ------------------ WRAPPERS ------------------- */
+
+.text-wrapper {
+  font-size: calc(2.5mm + 1vw);
+  margin: auto;
+  line-height: 1.5em;
+  
+  &.debug { 
+    background-image: -webkit-linear-gradient(hsla(0,0%,0%,0) 95%, hsla(0,25%,50%,.5) 95%);
+    background-image:    -moz-linear-gradient(hsla(0,0%,0%,0) 95%, hsla(0,25%,50%,.5) 95%);
+    background-image:     -ms-linear-gradient(hsla(0,0%,0%,0) 95%, hsla(0,25%,50%,.5) 95%);
+    background-image:      -o-linear-gradient(hsla(0,0%,0%,0) 95%, hsla(0,25%,50%,.5) 95%);
+    background-image:         linear-gradient(hsla(0,0%,0%,0) 95%, hsla(0,25%,50%,.5) 95%);
+    background-position: 50% 0;
+    background-size: 1.5em 1.5em;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .text-wrapper.size-640 {
+    max-width: 640px;
+    font-size: calc(2.5mm + 6.4px);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .text-wrapper.size-800 {
+    font-size: calc(2.5mm + 8.0px);
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 920px) {
+  .text-wrapper.size-920 {
+    font-size: calc(2.5mm + 9.2px);
+    max-width: 800px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .text-wrapper.size-1200 {
+    font-size: calc(2.5mm + 12px);
+    max-width: 800px;
+  }
+}
+
+/* ------------------ TITLES ------------------- */
+
+@mixin title($size, $height, $top, $bottom, $weight) {
+	font-size: $size; 
+	line-height: $height; 
+	padding: $top 0 $bottom 0;
+	font-weight: $weight;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  text-align: left;
+	font-size: 1em; 
+	line-height: 1.5em; 
+	padding:0;
+	margin:0;
+	font-weight:400;
+}
+
+h1 {
+  @include title(2.3333333em, 1em, 0.333333em, 0.6em, 700);
+}
+
+h2 {
+  @include title(2em, 1.5em, 0.333333em, 0.4em, 700);
+}
+
+h3 {
+  @include title(1.5em, 1em, 0em, 1em, 700);
+}
+
+h4 {
+  @include title(1.5em, 1em, 0em, 1em, 600);
+}
+
+h5 {
+  @include title(1.333333em, 1em, 0.1em, 1.133333em, 600);
+}
+
+h6 {
+  @include title(1.1em, 1.4em, 0.1em, 1.2em, 600);
+}
+
+/* ------------------ HR ------------------- */
+
+hr {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 1px;
+	border-color: rgba(1,1,1,0.15);
+	border-style: solid;
+	margin: 1.5em;
+}
+
+/* ------------------ QUOTE ------------------- */
+
+@mixin well() {
+  border-width: 0 0 0 0.2em;
+	border-style: solid;
+	border-radius: 3px;
+	
+	margin: -0.75em -0.2em 0.75em -0.2em;
+	padding: 0.75em 1em 0.75em 1em;
+	
+	max-width: 100%;
+}
+
+blockquote {
+  @include well();
+	border-color: rgba(1, 1, 1, 0.15);
+	
+	.night-mode & {
+    border-color: rgba(255, 255, 255, 0.15)
+  }
+}
+
+pre {
+  @include well();
+	border-color: rgba(1,1,1,0.20);
+	background-color:#EEE;
+	overflow-x: scroll;
+	
+	.night-mode & {
+    background-color:#222;
+    border-color:rgba(255,255,255,0.20);
+  }
+}
+
+
+
+/* ------------------ SPECIAL STYLING ------------------- */
+
+mark {
+  border-radius: 0.2em;
+  padding:0 0.2em 0 0.2em;
+  
+  background-color:rgba(255,255,0,0.33);
+  color: inherit;
+}
+
+.night-mode mark {
+  background-color:rgba(128,128,0,0.66);
+}
+
+/* ------------------ SPECIAL STYLING ------------------- */
+
+.time {
+	font-style: italic;
+	text-align: right;
+	width: 100%;
+	display: block;
+}
