@@ -1,0 +1,187 @@
+/*
+ *  4 - Cards( _cards.scss )
+ *  
+ *  This part of the (s)css handle the style of cards-like elements,
+ *  elements that are supposed to handle contents inside a box.
+ *
+ *  Elements like alerts, breadcrumb… are considered as "card-like".
+ *
+*/
+
+@mixin card-color($background-color, $text-color) {
+  & > .card-header { background-color: $background-color; color:$text-color; }
+}
+
+.card {
+  @include border-radius();
+	box-shadow: $large-shadow;
+  border: none;
+  margin-bottom:1.2em;
+}
+
+.card {
+  &-blue { @include card-color($color-blue, #FFF); }
+  &-violet { @include card-color($color-violet, #FFF); }
+  &-purple { @include card-color($color-purple, #FFF); }
+  &-red { @include card-color($color-red, #FFF); }
+  &-orange { @include card-color($color-orange, #FFF); }
+  &-green { @include card-color($color-green, #FFF); }
+  &-skyblue { @include card-color($color-skyblue, #FFF); }
+  &-dark { @include card-color($color-dark, #FFF); }
+  &-light { @include card-color($color-light, #111); }
+  &-turquoise { @include card-color($color-turquoise, #FFF); }
+  &-yellow { @include card-color($color-yellow, #FFF); }
+  &-brown { @include card-color($color-brown, #FFF); }
+  &-grey { @include card-color($color-grey, #FFF); }
+  
+  &-primary { @include card-color($color-primary, #FFF); }
+  &-secondary { @include card-color($color-secondary, #FFF); }
+  &-warning { @include card-color($color-warning, #FFF); }
+  &-danger { @include card-color($color-danger, #FFF); }
+  &-info { @include card-color($color-info, #FFF); }
+  &-success { @include card-color($color-success, #FFF); }
+}
+
+.card-shadow {
+  box-shadow: $large-shadow, $inset-shadow;
+}
+
+.card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card h7,.card h8,.card h9,.card h10  {
+	color:#333;
+	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+/* 4.1 - Header and titles */
+
+.card-header {
+  @include borders();
+  font-size:1.1em;
+  box-shadow: $inset-relief;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+  font-weight:600;
+  border-radius: 0;
+  
+  &:first-child {
+    @include border-radius();
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  &:last-child {
+    @include border-radius();
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6, h7, h8, h9, h10  {
+    font-size:1em;
+    text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+    padding:0px;
+    margin:0px;
+    color:#FFF;
+    font-weight:600;
+    line-height:1.5em;
+  }
+}
+
+/* 4.2 - Cards meta */
+
+.card-meta {
+  @include border-radius();
+	padding:1em;
+  box-shadow: $large-shadow, $inset-shadow;
+  border: 0;
+  background-color:#eeeeec;
+  margin-bottom:1.2em;
+  
+  &.media {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+  
+  .media-left .media-object {
+	  height: 64px;
+	  width: 64px;
+	  border-radius: 10px;
+    margin-right:1em;
+  }
+  
+  
+  author {
+	  display:block;
+	  font-weight:600;
+  }
+
+  time {
+  	display:block;
+  	font-style:italic;
+  }
+  
+  @include li-no-margin();
+}
+/* 4.3 - Cards list-groups */
+
+.list-group-item {
+	border: none;
+	background-color:transparent;
+}
+
+a.list-group-item:hover {
+	border-style:none;
+	border-width:0px;
+	border-radius:0px;
+	background-color:rgba(0,0,0,0.1);
+}
+
+/* 4.4 - Cards list-groups */
+
+@mixin alert-color($background-color) {
+  background-color: lighten($background-color, 35%);
+  color: darken($background-color, 80%);
+}
+
+.alert {
+  @include borders();
+  @include border-radius();
+  color:rgba(0, 0, 0, 0.7);
+  box-shadow: $large-shadow;
+}
+
+.alert {
+  &-blue { @include alert-color($color-blue); }
+  &-violet { @include alert-color($color-violet); }
+  &-purple { @include alert-color($color-purple); }
+  &-red { @include alert-color($color-red); }
+  &-orange { @include alert-color($color-orange); }
+  &-green { @include alert-color($color-green); }
+  &-skyblue { @include alert-color($color-skyblue); }
+  &-dark { @include alert-color($color-dark); }
+  &-light { @include alert-color($color-light); }
+  &-turquoise { @include alert-color($color-turquoise); }
+  &-yellow { @include alert-color($color-yellow); }
+  &-brown { @include alert-color($color-brown); }
+  &-grey { @include alert-color($color-grey); }  
+  
+  &-primary { @include alert-color($color-primary); }
+  &-secondary { @include alert-color($color-secondary); }
+  &-warning { @include alert-color($color-warning); }
+  &-danger { @include alert-color($color-danger); }
+  &-info { @include alert-color($color-info); }
+  &-success { @include alert-color($color-success); }
+}
+
+.alert a, .alert-link {
+  color:rgba(0, 0, 0, 0.7);
+  font-weight:bold;
+}
+
+/* 4.5 - Breadcrumbs */
+
+.breadcrumb {
+  @include border-radius();
+	box-shadow: $large-shadow, $inset-shadow;
+  border: 0;
+  background-color:#eeeeec;
+  margin-bottom:1.2em;
+  @include li-no-margin();
+}

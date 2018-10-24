@@ -38,6 +38,8 @@ $color-font: #444;
   }
 }
 
+/* 1.1 - Utils */
+
 .no-pills {
 	list-style:none;
 }
@@ -46,4 +48,34 @@ $color-font: #444;
   &-center {text-align: center;}
   &-left {text-align: left;}
   &-right {text-align: right;}
+}
+
+/* 1.2 - Background colors */
+
+@mixin background-color($background-color, $text-color) {
+  background-color: $background-color!important;
+  color: $text-color;
+}
+
+.bg {
+  &-blue { @include background-color($color-blue, #FFF); }
+  &-violet { @include background-color($color-violet, #FFF); }
+  &-purple { @include background-color($color-purple, #FFF); }
+  &-red { @include background-color($color-red, #FFF); }
+  &-orange { @include background-color($color-orange, #FFF); }
+  &-green { @include background-color($color-green, #FFF); }
+  &-skyblue { @include background-color($color-skyblue, #FFF); }
+  &-dark { @include background-color($color-dark, #FFF); }
+  &-light { @include background-color($color-light, #111); }
+  &-turquoise { @include background-color($color-turquoise, #FFF); }
+  &-yellow { @include background-color($color-yellow, #FFF); }
+  &-brown { @include background-color($color-brown, #FFF); }
+  &-grey { @include background-color($color-grey, #FFF); }  
+  
+  &-primary { @include background-color($color-primary, #FFF); }
+  &-secondary { @include background-color($color-secondary, #FFF); }
+  &-warning { @include background-color($color-warning, #FFF); }
+  &-danger { @include background-color($color-danger, #FFF); }
+  &-info { @include background-color($color-info, #FFF); }
+  &-success { @include background-color($color-success, #FFF); }
 }
