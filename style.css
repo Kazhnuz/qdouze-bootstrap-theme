@@ -340,6 +340,10 @@ h1, h2, h3, h4, h5, h6, h7 {
       justify-content: space-between; }
       h1.page-title-flex > span, h1.page-title-flex > i, h1.page-title-flex > a, h2.page-title-flex > span, h2.page-title-flex > i, h2.page-title-flex > a, h3.page-title-flex > span, h3.page-title-flex > i, h3.page-title-flex > a, h4.page-title-flex > span, h4.page-title-flex > i, h4.page-title-flex > a, h5.page-title-flex > span, h5.page-title-flex > i, h5.page-title-flex > a, h6.page-title-flex > span, h6.page-title-flex > i, h6.page-title-flex > a, h7.page-title-flex > span, h7.page-title-flex > i, h7.page-title-flex > a {
         display: block; }
+      h1.page-title-flex > a, h2.page-title-flex > a, h3.page-title-flex > a, h4.page-title-flex > a, h5.page-title-flex > a, h6.page-title-flex > a, h7.page-title-flex > a {
+        color: #e33d22; }
+        h1.page-title-flex > a:hover, h1.page-title-flex > a:focus, h1.page-title-flex > a:active, h2.page-title-flex > a:hover, h2.page-title-flex > a:focus, h2.page-title-flex > a:active, h3.page-title-flex > a:hover, h3.page-title-flex > a:focus, h3.page-title-flex > a:active, h4.page-title-flex > a:hover, h4.page-title-flex > a:focus, h4.page-title-flex > a:active, h5.page-title-flex > a:hover, h5.page-title-flex > a:focus, h5.page-title-flex > a:active, h6.page-title-flex > a:hover, h6.page-title-flex > a:focus, h6.page-title-flex > a:active, h7.page-title-flex > a:hover, h7.page-title-flex > a:focus, h7.page-title-flex > a:active {
+          color: #ba2e18; }
 
 h1 {
   font-size: 2.33333em;
