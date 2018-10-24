@@ -43,17 +43,6 @@
   color: $text-color;
 }
 
-a, a:hover, a:active {
-  color: $color-link;
-}
-
-::selection {
-  @include background-color($color-selection, #FFF);
-}
-::-moz-selection {
-  @include background-color($color-selection, #FFF);
-}
-
 /* CARDS */
 
 .card {

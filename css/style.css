@@ -25,6 +25,7 @@
  *
 */
 /* 2.1 - Font Face */
+/* 2.1.1 - OpenSans */
 @font-face {
   font-family: 'OpenSans';
   src: url("../fonts/OpenSans-Light-webfont.eot");
@@ -114,8 +115,10 @@ em {
   font-style: italic; }
 
 a {
-  color: #2484c1;
+  color: #4e63c9;
   text-decoration: none; }
+  a:hover, a:active {
+    color: #4e63c9; }
 
 p {
   padding: 0;
@@ -143,11 +146,11 @@ ol {
     margin-left: 1.5em; }
 
 ::selection {
-  background: #2484c1;
+  background: #4e63c9;
   color: #fff; }
 
 ::-moz-selection {
-  background: #2484c1;
+  background: #4e63c9;
   color: #fff; }
 
 /* 2.2 - Text Wrapper */
@@ -617,17 +620,6 @@ a.list-group-item:hover {
   display: block; }
 
 /* ------------------ COULEURS ------------------- */
-a, a:hover, a:active {
-  color: #4e63c9; }
-
-::selection {
-  background-color: #4e63c9 !important;
-  color: #FFF; }
-
-::-moz-selection {
-  background-color: #4e63c9 !important;
-  color: #FFF; }
-
 /* CARDS */
 .card-blue > .card-header {
   background-color: #4e63c9;

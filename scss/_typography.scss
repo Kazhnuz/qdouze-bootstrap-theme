@@ -38,8 +38,11 @@ em {
 }
 
 a {
-  color:#2484c1;
+  color: $color-link;
   text-decoration:none;
+  &:hover, &:active {
+    color: $color-link;
+  }
 }
 
 p {
@@ -70,8 +73,8 @@ ol {
 }
 
 
-::selection { background: #2484c1; color: #fff; }
-::-moz-selection { background: #2484c1; color: #fff; }
+::selection { background: $color-selection; color: #fff; }
+::-moz-selection { background: $color-selection; color: #fff; }
 
 /* 2.2 - Text Wrapper */
 
