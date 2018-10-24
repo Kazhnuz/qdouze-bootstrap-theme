@@ -1,5 +1,19 @@
 @charset "UTF-8";
 /*
+  Theme Name: Dimension Quarante-Douze
+  Theme URI: https://github.com/Quarante-Douze/qdouze-wordpress-theme
+  Author: Kazhnuz
+  Author URI: https://kazhnuz.space
+  Description: The default theme for Quarante-Douze, my tech blog. Made using bootstrap
+  Version: 0.1
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Tags: blog, two-columns, right-sidebar, magazine
+  Text Domain: qdouze-wordpress-theme
+
+  This theme is licensed under the GPLv3.
+*/
+/*
  *  1 - Definitions
  *  
  *  This part of the (s)css contain every definitions, mixins,
@@ -107,98 +121,98 @@
 /* 2.1.1 - OpenSans */
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-Light-webfont.eot");
-  src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Light-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-Light-webfont.eot");
+  src: url("fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Light-webfont.woff2") format("woff2"), url("fonts/OpenSans-Light-webfont.woff") format("woff"), url("fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("fonts/OpenSans-Light-webfont.svg#open_sansbold") format("svg");
   font-weight: 300;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-LightItalic-webfont.eot");
-  src: url("../fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-LightItalic-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-LightItalic-webfont.eot");
+  src: url("fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-LightItalic-webfont.woff2") format("woff2"), url("fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-LightItalic-webfont.svg#open_sansbold") format("svg");
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-Regular-webfont.eot");
-  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular-webfont.woff2") format("woff2"), url("fonts/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/OpenSans-Regular-webfont.svg#open_sansbold") format("svg");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-Italic-webfont.eot");
-  src: url("../fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Italic-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Italic-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-Italic-webfont.eot");
+  src: url("fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Italic-webfont.woff2") format("woff2"), url("fonts/OpenSans-Italic-webfont.woff") format("woff"), url("fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("fonts/OpenSans-Italic-webfont.svg#open_sansbold") format("svg");
   font-weight: 400;
   font-style: italic; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-Semibold-webfont.eot");
-  src: url("../fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Semibold-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Semibold-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-Semibold-webfont.eot");
+  src: url("fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Semibold-webfont.woff2") format("woff2"), url("fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("fonts/OpenSans-Semibold-webfont.svg#open_sansbold") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot");
-  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiboldItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-SemiboldItalic-webfont.eot");
+  src: url("fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-SemiboldItalic-webfont.woff2") format("woff2"), url("fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-SemiboldItalic-webfont.svg#open_sansbold") format("svg");
   font-weight: 600;
   font-style: italic; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-Bold-webfont.eot");
-  src: url("../fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold-webfont.woff2") format("woff2"), url("../fonts/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-Bold-webfont.eot");
+  src: url("fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Bold-webfont.woff2") format("woff2"), url("fonts/OpenSans-Bold-webfont.woff") format("woff"), url("fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("fonts/OpenSans-Bold-webfont.svg#open_sansbold") format("svg");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-BoldItalic-webfont.eot");
-  src: url("../fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-BoldItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-BoldItalic-webfont.eot");
+  src: url("fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-BoldItalic-webfont.woff2") format("woff2"), url("fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-BoldItalic-webfont.svg#open_sansbold") format("svg");
   font-weight: 700;
   font-style: italic; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-ExtraBold-webfont.eot");
-  src: url("../fonts/OpenSans-ExtraBold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBold-webfont.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBold-webfont.woff") format("woff"), url("../fonts/OpenSans-ExtraBold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBold-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-ExtraBold-webfont.eot");
+  src: url("fonts/OpenSans-ExtraBold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-ExtraBold-webfont.woff2") format("woff2"), url("fonts/OpenSans-ExtraBold-webfont.woff") format("woff"), url("fonts/OpenSans-ExtraBold-webfont.ttf") format("truetype"), url("fonts/OpenSans-ExtraBold-webfont.svg#open_sansbold") format("svg");
   font-weight: 800;
   font-style: normal; }
 
 @font-face {
   font-family: 'OpenSans';
-  src: url("../fonts/OpenSans-ExtraBoldItalic-webfont.eot");
-  src: url("../fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-ExtraBoldItalic-webfont.woff2") format("woff2"), url("../fonts/OpenSans-ExtraBoldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-ExtraBoldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-ExtraBoldItalic-webfont.svg#open_sansbold") format("svg");
+  src: url("fonts/OpenSans-ExtraBoldItalic-webfont.eot");
+  src: url("fonts/OpenSans-ExtraBoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-ExtraBoldItalic-webfont.woff2") format("woff2"), url("fonts/OpenSans-ExtraBoldItalic-webfont.woff") format("woff"), url("fonts/OpenSans-ExtraBoldItalic-webfont.ttf") format("truetype"), url("fonts/OpenSans-ExtraBoldItalic-webfont.svg#open_sansbold") format("svg");
   font-weight: 800;
   font-style: italic; }
 
 /* 2.1.2 - Teko */
 @font-face {
   font-family: 'Teko';
-  src: url("../fonts/teko-light-webfont.woff");
+  src: url("fonts/teko-light-webfont.woff");
   font-weight: 300; }
 
 @font-face {
   font-family: 'Teko';
-  src: url("../fonts/teko-regular-webfont.woff");
+  src: url("fonts/teko-regular-webfont.woff");
   font-weight: 400; }
 
 @font-face {
   font-family: 'Teko';
-  src: url("../fonts/teko-medium-webfont.woff");
+  src: url("fonts/teko-medium-webfont.woff");
   font-weight: 500; }
 
 @font-face {
   font-family: 'Teko';
-  src: url("../fonts/teko-semibold-webfont.woff");
+  src: url("fonts/teko-semibold-webfont.woff");
   font-weight: 600; }
 
 @font-face {
   font-family: 'Teko';
-  src: url("../fonts/teko-bold-webfont.woff");
+  src: url("fonts/teko-bold-webfont.woff");
   font-weight: 700; }
 
 /* 2.2 - Global Typography */
@@ -429,7 +443,7 @@ mark {
  *
 */
 body {
-  background: #666 url("../img/background.png");
+  background: #666 url("img/background.png");
   padding: 30px;
   background-attachment: fixed; }
 
@@ -443,7 +457,7 @@ body {
 
 /*  3.1 - Header */
 header {
-  background: #EEE url("../img/background.png");
+  background: #EEE url("img/background.png");
   margin-bottom: 30px; }
   header h1 {
     border-style: none !important;
