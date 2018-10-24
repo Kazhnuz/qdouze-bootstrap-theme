@@ -3,7 +3,7 @@
   <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
   
   <article class="article-content" id="post-<?php the_ID(); ?>">
-  <h1 class="page-title"><?php the_title(); ?></h1>
+  <h1 class="page-title"><i class="fa fa-fw fa-file-text"></i> <?php the_title(); ?></h1>
     
     <div class="article-body">
       <?php the_content(); ?>
