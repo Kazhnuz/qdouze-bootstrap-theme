@@ -20,21 +20,28 @@
   }
 }
 
-@mixin badge-color($background-color, $text-color) {
-  background-color: $background-color;
-  color: $text-color;
-    &, &:not(.disabled):not(:disabled) {
-    &:hover, &:active, &:focus, a:hover > &, a:active > &, a:focus > & {
-      @include button-lighten($background-color, $text-color);
-    }
-  }
-}
-
 .btn {
 	@include borders();
 	@include border-radius();
 	box-shadow: $large-shadow, $inset-shadow;
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+	@include button-color($color-light, #111);
+  
+  &:hover {
+  position:relative;
+	box-shadow: $narrow-shadow, $inset-shadow;
+  top:1px;
+	@include borders();
+	text-decoration: none;
+  }
+  
+  &:active {
+  position:relative;
+	box-shadow: $inset-shadow-inverted;
+  top:2px;
+	@include borders();
+	text-decoration: none;
+  }
 }
 
 .btn {
@@ -58,21 +65,6 @@
   &-danger { @include button-color($color-danger, #FFF); }
   &-info { @include button-color($color-info, #FFF); }
   &-success { @include button-color($color-success, #FFF); }
-}
-
-
-.btn:hover {
-  position:relative;
-	box-shadow: $narrow-shadow, $inset-shadow;
-  top:1px;
-	@include borders();
-}
-
-.btn:active {
-  position:relative;
-	box-shadow: $inset-shadow-inverted;
-  top:2px;
-	@include borders();
 }
 
 .btn-group {
@@ -132,6 +124,25 @@
 }
 
 /* 5.2 - Badges */
+
+@mixin badge-color($background-color, $text-color) {
+  background-color: $background-color;
+  color: $text-color;
+    &, &:not(.disabled):not(:disabled) {
+    &:hover, &:active, &:focus, a:hover > &, a:active > &, a:focus > & {
+      @include button-lighten($background-color, $text-color);
+    }
+  }
+}
+
+.badge {
+  @include borders();
+  @include border-radius();
+  
+  &-pill {
+    border-radius: 10rem;
+  }
+}
 
 .badge {
   &-blue { @include badge-color($color-blue, #FFF); }
