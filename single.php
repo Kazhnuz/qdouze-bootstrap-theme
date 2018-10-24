@@ -4,6 +4,12 @@
   
   <article class="article-content" id="post-<?php the_ID(); ?>">
   <h1 class="page-title"><i class="fa fa-fw fa-file-text"></i> <?php the_title(); ?></h1>
+  
+  <aside class="article-excerpt">
+    <?php the_excerpt(); ?>
+    
+    <hr />
+  </aside>
     
     <div class="article-body">
       <?php the_content(); ?>
