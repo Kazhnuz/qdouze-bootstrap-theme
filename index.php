@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Blue Sky, by Kazhnuz</title>
+
+		<!-- meta -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<!-- mon icon -->
+		<link rel="shortcut icon" href="img/favicon.png">
+
+		<!-- framework utilisés -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/fork-awesome.css" rel="stylesheet">
+
+		<link href="style.css" rel="stylesheet">
+	</head>
+
+	<body>
+<div id="wrapper" class="card">
+
+<header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="#" id="" ><img src="img/brand-icon.png" alt="Quarante-Douze"></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">À propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+  <section class="container-fluid">
+		<h1><a href="https://quarante-douze.net/"><img src="img/logo.png"></a></h1>
+  </section>
+	
+<nav class="navbar navbar-expand-lg navbar-dark bg-grey" id="navbar-category">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav nav-justified w-100">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">La vie du blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contenus Culturels</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Fandoms</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tribunes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Libreries</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Internet et Numérique</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+</header>
+
+<section class="container-fluid">
+	<div class="row">
+
+
+<div class="col-md-9">
+
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+    <li class="breadcrumb-item"><a href="#">Contenus</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Article exemple</li>
+  </ol>
+</nav>
+
+<article>
+
+<section class="article-content">
+<h1 class="card-title">Nom de l'article :</h1>
+
+<div><em>test</em></div>
+
+<hr />
+
+<ul>
+	<li>1 - Titre de niveau 3
+		<ul>
+			<li>1.1 - Titre de niveau 4</li>
+			<li>1.2 - Titre de niveau 4</li>
+			<li>1.3 - Titre de niveau 4</li>
+		</ul>
+	</li>
+	<li>2 - Titre de niveau 3</li>
+</ul>
+
+<h3>Introduction : Lorem Ipsum</h3>
+
+<p><em>Lorem ipsum dolor sit amet<sup><a href="#1">[1]</a></sup>, consectetur adipiscing elit. Praesent varius ullamcorper diam, non sagittis lectus rutrum id. Integer eros urna, egestas et libero a, finibus egestas odio. Nunc vel hendrerit quam, eget malesuada sem. Sed hendrerit ligula pharetra leo aliquam volutpat. Integer auctor urna ac convallis laoreet. Nunc vestibulum ipsum sed tortor aliquam porta. Cras nunc est, lobortis in est at, rhoncus auctor nunc. Sed dignissim erat non sollicitudin ultricies. Integer vel consectetur urna. Etiam fermentum ligula vitae nunc viverra, a fringilla sem aliquam. Suspendisse potenti. Morbi sem mi, malesuada quis odio vitae, suscipit congue metus. Sed ut ullamcorper urna, eget molestie est. Sed pulvinar justo ac urna consectetur fringilla. Donec tristique eget leo sit amet mollis.</em></p>
+
+<p class="align-center"><a href="#" class="btn btn-warning">Télécharger ce thème</a></p>
+
+<h3>Titre de niveau 3</h3>
+	<h4>Titre de niveau 4</h4>
+	<h4>Titre de niveau 4</h4>
+	<h4>Titre de niveau 4</h4>
+<h3>Titre de niveau 3</h3>
+
+<p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. <mark>Sed posuere lectus eu orci tristique maximus</mark>. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p>
+
+<blockquote><p>Cras malesuada, metus at viverra molestie, mi ligula sodales tellus, vitae facilisis ante est vitae dolor. Donec feugiat non est eget elementum. Nullam in erat et arcu tincidunt maximus. Nullam nibh orci, egestas eu ex non, viverra pretium magna. Proin convallis, risus eu condimentum luctus, ante dui mattis eros, a varius risus diam sed nisl. Ut malesuada ipsum in augue accumsan ullamcorper. Phasellus efficitur augue in venenatis sollicitudin. Integer at consectetur arcu.</p></blockquote>
+
+<pre><code>Vivamus tincidunt dolor quis consectetur dapibus.
+Ut metus risus, lobortis non venenatis in, ultricies a orci.
+In suscipit ante et aliquet pretium.
+Integer diam dui, rutrum vitae risus ultricies, varius vulputate magna.
+In id suscipit elit.</code></pre>
+
+
+<p id="1">[1] : Sed et odio volutpat, convallis est et, interdum sapien.</p>
+
+</section>
+
+<section class="share-buttons align-right">
+  <a href="#" class="btn btn-facebook"><i class="fa fa-fw fa-facebook"></i></a>
+  <a href="#" class="btn btn-twitter"><i class="fa fa-fw fa-twitter"></i></a>
+  <a href="#" class="btn btn-googleplus"><i class="fa fa-fw fa-google-plus"></i></a>
+  <a href="#" class="btn btn-diaspora"><i class="fa fa-fw fa-diaspora"></i></a>
+  <a href="#" class="btn btn-mastodon"><i class="fa fa-fw fa-mastodon"></i></a>
+  <a href="#" class="btn btn-light"><i class="fa fa-fw fa-envelope"></i></a>
+</section>
+
+
+<section class="card card-darker">
+<div class="media card-meta">
+	<div class="media-left"><a href="#"><img class="media-object" src="img/avatar.png" alt="..."></a></div>
+	<div class="media-body"><author class="media-heading">Écrit par <a href="" >Pseudo</a></author><time> Le vendredi 19 septembre 2014 à 07:16 </time></div>
+</div>
+</section>
+
+</article>
+
+<div class="previews-section prev-col-3">
+
+  <div class="preview-container">
+  <article class="card card-preview">
+      <a href="#" class="preview-link">
+        <div class="preview-item">
+		        <div class="preview-content"><p class="p-img"><img src="img/wmap.png" alt="Card image cap"></p></div>
+		      <div class="preview-overlay"><h1>Image Exemple</h1></div>
+		    </div>
+		  </a>
+    <aside class="card-body">
+      <div class="align-right"><time><small>Le 27/02/2017</small></time></div>
+      <div class="align-left"><i class="fa fa-tags"></i>&nbsp; <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> </div>
+      <div class="align-center comment-text"><a href="#">3 commentaires</a></div>
+    </aside>
+  </article>
+  </div>
+
+<div class="preview-container">
+  <article class="card card-preview">
+      <a href="#" class="preview-link">
+        <div class="preview-item">
+		        <div class="preview-content"><p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. Sed posuere lectus eu orci tristique maximus. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p></div>
+		      <div class="preview-overlay"><h1>Text Exemple</h1></div>
+		    </div>
+		  </a>
+    <aside class="card-body">
+      <div class="align-right"><time><small>Le 27/02/2017</small></time></div>
+      <div class="align-left"><i class="fa fa-tags"></i>&nbsp; <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> </div>
+      <div class="align-center comment-text"><a href="#">3 commentaires</a></div>
+    </aside>
+  </article>
+  </div>
+  
+  <div class="preview-container">
+  <article class="card card-preview">
+      <a href="#" class="preview-link">
+        <div class="preview-item">
+		        <div class="preview-content"><p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. Sed posuere lectus eu orci tristique maximus. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p></div>
+		      <div class="preview-overlay"><h1>Text Exemple</h1></div>
+		    </div>
+		  </a>
+    <aside class="card-body">
+      <div class="align-right"><time><small>Le 27/02/2017</small></time></div>
+      <div class="align-left"><i class="fa fa-tags"></i>&nbsp; <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> </div>
+      <div class="align-center comment-text"><a href="#">3 commentaires</a></div>
+    </aside>
+  </article>
+  </div>
+
+  <div class="preview-container">
+  <article class="card card-preview">
+      <a href="#" class="preview-link">
+        <div class="preview-item">
+		        <div class="preview-content"><p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. Sed posuere lectus eu orci tristique maximus. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p></div>
+		      <div class="preview-overlay"><h1>Text Exemple</h1></div>
+		    </div>
+		  </a>
+    <aside class="card-body">
+      <div class="align-right"><time><small>Le 27/02/2017</small></time></div>
+      <div class="align-left"><i class="fa fa-tags"></i>&nbsp; <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-primary">categorie</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> <a href="" class="badge badge-info">mot-clef</a> </div>
+      <div class="align-center comment-text"><a href="#">3 commentaires</a></div>
+    </aside>
+  </article>
+  </div>
+
+</div>
+
+<section class="commentaires">
+<h3>Commentaires :</h3>
+
+<article class="comment">
+    <div class="media card-meta">
+			<div class="media-left"><a href="#"><img class="media-object" src="img/avatar.png" alt="..."></a></div>
+			<div class="media-body"><author class="media-heading">Écrit par <a href="" >Pseudo</a></author><time> Le vendredi 19 septembre 2014 à 07:16 </time></div>
+		</div>
+	<div class="article-content">
+		<p><em>Lorem ipsum dolor sit amet<sup><a href="#1">[1]</a></sup>, consectetur adipiscing elit. Praesent varius ullamcorper diam, non sagittis lectus rutrum id. Integer eros urna, egestas et libero a, finibus egestas odio. Nunc vel hendrerit quam, eget malesuada sem. Sed hendrerit ligula pharetra leo aliquam volutpat. Integer auctor urna ac convallis laoreet. Nunc vestibulum ipsum sed tortor aliquam porta. Cras nunc est, lobortis in est at, rhoncus auctor nunc. Sed dignissim erat non sollicitudin ultricies. Integer vel consectetur urna. Etiam fermentum ligula vitae nunc viverra, a fringilla sem aliquam. Suspendisse potenti. Morbi sem mi, malesuada quis odio vitae, suscipit congue metus. Sed ut ullamcorper urna, eget molestie est. Sed pulvinar justo ac urna consectetur fringilla. Donec tristique eget leo sit amet mollis.</em></p>
+
+<p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. <mark>Sed posuere lectus eu orci tristique maximus</mark>. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p>
+
+	</div>
+</article>
+
+<article class="comment">
+<div class="media card-meta">
+			<div class="media-left"><a href="#"><img class="media-object" src="img/avatar.png" alt="..."></a></div>
+			<div class="media-body"><author class="media-heading">Écrit par <a href="" >Pseudo</a></author><time> Le vendredi 19 septembre 2014 à 07:16 </time></div>
+	</div>
+	<div class="article-content">
+		<p><em>Lorem ipsum dolor sit amet<sup><a href="#1">[1]</a></sup>, consectetur adipiscing elit. Praesent varius ullamcorper diam, non sagittis lectus rutrum id. Integer eros urna, egestas et libero a, finibus egestas odio. Nunc vel hendrerit quam, eget malesuada sem. Sed hendrerit ligula pharetra leo aliquam volutpat. Integer auctor urna ac convallis laoreet. Nunc vestibulum ipsum sed tortor aliquam porta. Cras nunc est, lobortis in est at, rhoncus auctor nunc. Sed dignissim erat non sollicitudin ultricies. Integer vel consectetur urna. Etiam fermentum ligula vitae nunc viverra, a fringilla sem aliquam. Suspendisse potenti. Morbi sem mi, malesuada quis odio vitae, suscipit congue metus. Sed ut ullamcorper urna, eget molestie est. Sed pulvinar justo ac urna consectetur fringilla. Donec tristique eget leo sit amet mollis.</em></p>
+
+<p>Proin bibendum felis sit amet nisl iaculis, <strong>vel blandit purus dictum</strong>. Maecenas ullamcorper tortor ac dolor pulvinar, id imperdiet arcu suscipit. <mark>Sed posuere lectus eu orci tristique maximus</mark>. Nulla facilisi. Aenean sed fermentum nisl. Donec sodales ligula eu est finibus, eu posuere ligula condimentum. Morbi arcu magna, varius id justo ac, aliquam luctus magna. Pellentesque a velit et ipsum euismod congue eget eu sem. <del>Nulla luctus est nec arcu volutpat blandit.</del> Quisque egestas, elit eu tempus tincidunt, mi libero porta purus, eget lobortis metus erat a dolor. Integer ac turpis lacinia, interdum nisl non, feugiat libero.</p>
+
+	</div>
+</article>
+
+</div>
+<aside class="sidebar col-md-3">
+  <section class="card card-primary">
+    <div class="card-header">
+      <h3 class="card-title">Catégories</h3>
+    </div>
+    <div class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        Objet de liste
+        <span class="badge badge-primary badge-pill">14</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+    </div>
+  </section>
+
+  <section class="card card-primary">
+    <div class="card-header">
+      <h3 class="card-title"> Archive</h3>
+    </div>
+    <div class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        Objet de liste
+        <span class="badge badge-primary badge-pill">14</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+    </div>
+  </section>
+
+  <section class="card card-primary">
+      <div class="card-header">
+        <h3 class="card-title">Navigation</h3>
+      </div>
+      <div class="list-group list-group-flush">
+      <a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+        Objet de liste
+        <span class="badge badge-primary badge-pill">14</span>
+      </a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+      <a href="#" class="list-group-item list-group-item-action">Objet de liste</a>
+    </div>
+  </section>
+
+
+</aside>
+
+	</div>
+</section>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SecondNavbar" aria-controls="SecondNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="SecondNavbar">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item inactive">
+        CC BY-SA 2018 <strong>Quarante-Douze</strong>
+      </li>
+    </ul>
+  
+    <ul class="navbar-nav my-2 my-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-fw fa-rss"></i></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-fw fa-twitter"></i></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-fw fa-facebook"></i></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-fw fa-diaspora"></i></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fa fa-fw fa-mastodon"></i></a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+</div>
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+ </body>
+</html>
