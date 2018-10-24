@@ -661,6 +661,37 @@ ul.social {
     margin: 0; }
 
 /* 4.3 - Cards list-groups */
+section.widget ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0; }
+  section.widget ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+    section.widget ul li.recentcomments {
+      position: relative;
+      display: block;
+      padding: .75rem 1.25rem;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 0px solid rgba(0, 0, 0, 0.125);
+      list-style: none; }
+    section.widget ul li a {
+      position: relative;
+      display: block;
+      padding: .75rem 1.25rem;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 0px solid rgba(0, 0, 0, 0.125);
+      list-style: none; }
+      section.widget ul li a:hover {
+        background-color: #eee;
+        text-decoration: none; }
+
 .list-group-item {
   border: none;
   background-color: transparent; }
