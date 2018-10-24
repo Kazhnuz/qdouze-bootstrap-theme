@@ -301,6 +301,12 @@ ol {
   font-weight: 300; }
   .article-content p, .article-content em, .article-content p em {
     font-weight: 300; }
+  .article-content .article-thumbnail {
+    padding-bottom: 1em;
+    text-align: center; }
+    .article-content .article-thumbnail img {
+      max-width: 100%;
+      height: auto; }
   .article-content .article-excerpt {
     padding: 0 0.5em 0 0.5em;
     font-style: italic;
