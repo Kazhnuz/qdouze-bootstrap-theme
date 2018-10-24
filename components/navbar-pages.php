@@ -8,12 +8,14 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">À propos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
+      <?php $pages = get_pages();
+      if ( $pages ) {
+        foreach( $pages as $page ) {
+          echo '<li class="nav-item">';
+          echo '<a class="nav-link" href="' . get_page_link( $page->ID ) . '">'. $page->post_title .'</a>';
+          echo '</li>';
+        }
+      }?>
     </ul>
   </div>
   </div>
