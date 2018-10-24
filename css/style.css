@@ -1,3 +1,22 @@
+/*
+ *  1 - Definitions
+ *  
+ *  This part of the (s)css contain every definitions, mixins,
+ *  and differents unilities that can be used everywhere in the code.
+ *
+*/
+.no-pills {
+  list-style: none; }
+
+.align-center {
+  text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
 /* ------------------ FONT LOADING ------------------- */
 @font-face {
   font-family: 'OpenSans';
@@ -256,22 +275,81 @@ mark {
   width: 100%;
   display: block; }
 
-/* ------------------ GLOBAL STYLE ------------------- */
-.no-pills {
-  list-style: none; }
+/*
+ *  3 - Global elements ( _global.scss )
+ *  
+ *  This part of the (s)css handle the style of "global" elements
+ *  like the wrapper, the navbars, the header.
+ *
+*/
+body {
+  background: #666 url("../img/background.png");
+  padding: 30px;
+  background-attachment: fixed; }
 
-.align-center {
+@media (max-width: 767.98px) {
+  body {
+    background: none;
+    padding: 0; } }
+
+#wrapper {
+  background-color: #FFF; }
+
+/*  1.1 - Header */
+header {
+  background: #EEE url("../img/background.png");
+  margin-bottom: 30px; }
+  header h1 {
+    border-style: none !important;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 1em;
+    padding-bottom: 0px;
+    padding: 2.33333em;
+    margin: auto;
+    text-align: center; }
+    header h1 img {
+      max-width: 100%;
+      height: auto; }
+
+.navbar {
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-left: 0;
+  border-right: 0; }
+  .navbar ul {
+    padding-bottom: 0; }
+  .navbar li {
+    margin: 0; }
+
+.dropdown-menu {
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
+
+/*  1.2 - Footer */
+footer {
+  margin-top: 40px; }
+
+/* 1.2.1 - Social Network Buttons */
+ul.social {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+  margin: auto;
   text-align: center; }
-
-.align-left {
-  text-align: left; }
-
-.align-right {
-  text-align: right; }
-
-h1, h2, h3, h4, h5, h6, h7, h8, h9, h10 {
-  color: white;
-  text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4); }
+  ul.social li {
+    margin: 0;
+    list-style: none;
+    display: inline; }
+    ul.social li a {
+      color: #FFFFFF;
+      background-color: #000000;
+      padding: 0.3em;
+      padding-left: 0.36em;
+      padding-right: 0.36em;
+      vertical-align: middle;
+      border-radius: 100%; }
+      ul.social li a:hover {
+        color: #000;
+        background-color: #FFF; }
 
 /* ------------------ CARDS ------------------- */
 .card {
@@ -531,82 +609,6 @@ a.list-group-item:hover {
 .card-preview time {
   margin-bottom: 0.4em;
   display: block; }
-
-/*
- *  1 - Global elements ( _global.scss )
- *  
- *  This part of the (s)css handle the style of "global" elements
- *  like the wrapper, the navbars, the header.
- *
-*/
-body {
-  background: #666 url("../img/background.png");
-  padding: 30px;
-  background-attachment: fixed; }
-
-@media (max-width: 767.98px) {
-  body {
-    background: none;
-    padding: 0; } }
-
-#wrapper {
-  background-color: #FFF; }
-
-/*  1.1 - Header */
-header {
-  background: #EEE url("../img/background.png");
-  margin-bottom: 30px; }
-  header h1 {
-    border-style: none !important;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: 1em;
-    padding-bottom: 0px;
-    padding: 2.33333em;
-    margin: auto;
-    text-align: center; }
-    header h1 img {
-      max-width: 100%;
-      height: auto; }
-
-.navbar {
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  border-left: 0;
-  border-right: 0; }
-  .navbar ul {
-    padding-bottom: 0; }
-  .navbar li {
-    margin: 0; }
-
-.dropdown-menu {
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
-
-/*  1.2 - Footer */
-footer {
-  margin-top: 40px; }
-
-/* 1.2.1 - Social Network Buttons */
-ul.social {
-  font-size: 1.5em;
-  padding-bottom: 1em;
-  margin: auto;
-  text-align: center; }
-  ul.social li {
-    margin: 0;
-    list-style: none;
-    display: inline; }
-    ul.social li a {
-      color: #FFFFFF;
-      background-color: #000000;
-      padding: 0.3em;
-      padding-left: 0.36em;
-      padding-right: 0.36em;
-      vertical-align: middle;
-      border-radius: 100%; }
-      ul.social li a:hover {
-        color: #000;
-        background-color: #FFF; }
 
 /* ------------------ COULEURS ------------------- */
 a, a:hover, a:active {
