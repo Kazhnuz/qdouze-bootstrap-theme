@@ -5,24 +5,15 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav nav-justified w-100">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">La vie du blog</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contenus Culturels</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Fandoms</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Tribunes</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Libreries</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Internet et Numérique</a>
-      </li>
+      <?php
+        $categories = get_categories( array(
+          'orderby' => 'name',
+          'order'   => 'ASC'
+        ) );
+
+        foreach( $categories as $category ) {
+          echo '<li class="nav-item"><a class="nav-link" href="' . get_category_link($category->term_id) . '">' . $category->name . '</a></li>';   
+        }?>
     </ul>
   </div>
 </nav>
