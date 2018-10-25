@@ -724,13 +724,18 @@ ul.social {
   border: 0;
   background-color: #eeeeec;
   margin-bottom: 1.2em; }
+  .card-meta li {
+    margin: 0; }
   .card-meta.media {
     -ms-flex-align: center !important;
     align-items: center !important; }
   .card-meta .media-left .media-object {
     height: 64px;
     width: 64px;
-    border-radius: 10px;
+    border-radius: 100%;
+    margin-right: 1em; }
+  .card-meta img.avatar {
+    border-radius: 100%;
     margin-right: 1em; }
   .card-meta author {
     display: block;

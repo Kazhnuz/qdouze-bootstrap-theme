@@ -89,6 +89,7 @@
   border: 0;
   background-color:#eeeeec;
   margin-bottom:1.2em;
+  @include li-no-margin();
   
   &.media {
     -ms-flex-align: center !important;
@@ -98,7 +99,12 @@
   .media-left .media-object {
 	  height: 64px;
 	  width: 64px;
-	  border-radius: 10px;
+	  border-radius: 100%;
+    margin-right:1em;
+  }
+  
+  img.avatar {
+    border-radius: 100%;
     margin-right:1em;
   }
   
