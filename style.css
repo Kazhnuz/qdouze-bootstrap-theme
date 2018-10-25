@@ -1074,6 +1074,8 @@ a.list-group-item:hover {
 
 .reagir {
   text-align: right; }
+  .reagir .btn, .reagir .page-numbers {
+    margin-right: 0.5em; }
 
 .btn-facebook {
   background-color: #3B5998;
@@ -1108,6 +1110,34 @@ a.list-group-item:hover {
   color: #FFF; }
   .btn-mastodon:hover, .btn-mastodon:active, .btn-mastodon:focus, .btn-mastodon:not(.disabled):not(:disabled):hover, .btn-mastodon:not(.disabled):not(:disabled):active, .btn-mastodon:not(.disabled):not(:disabled):focus {
     background-color: #484f63;
+    color: #FFF; }
+
+.btn-whatsapp {
+  background-color: #43d854;
+  color: #FFF; }
+  .btn-whatsapp:hover, .btn-whatsapp:active, .btn-whatsapp:focus, .btn-whatsapp:not(.disabled):not(:disabled):hover, .btn-whatsapp:not(.disabled):not(:disabled):active, .btn-whatsapp:not(.disabled):not(:disabled):focus {
+    background-color: #82e58e;
+    color: #FFF; }
+
+.btn-linkedin {
+  background-color: #0074A1;
+  color: #FFF; }
+  .btn-linkedin:hover, .btn-linkedin:active, .btn-linkedin:focus, .btn-linkedin:not(.disabled):not(:disabled):hover, .btn-linkedin:not(.disabled):not(:disabled):active, .btn-linkedin:not(.disabled):not(:disabled):focus {
+    background-color: #00abee;
+    color: #FFF; }
+
+.btn-buffer {
+  background-color: #444;
+  color: #FFF; }
+  .btn-buffer:hover, .btn-buffer:active, .btn-buffer:focus, .btn-buffer:not(.disabled):not(:disabled):hover, .btn-buffer:not(.disabled):not(:disabled):active, .btn-buffer:not(.disabled):not(:disabled):focus {
+    background-color: #6a6a6a;
+    color: #FFF; }
+
+.btn-pinterest {
+  background-color: #bd081c;
+  color: #FFF; }
+  .btn-pinterest:hover, .btn-pinterest:active, .btn-pinterest:focus, .btn-pinterest:not(.disabled):not(:disabled):hover, .btn-pinterest:not(.disabled):not(:disabled):active, .btn-pinterest:not(.disabled):not(:disabled):focus {
+    background-color: #f51c34;
     color: #FFF; }
 
 /* 5.2 - Badges */

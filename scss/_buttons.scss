@@ -120,6 +120,9 @@
 
 .reagir {
   text-align:right;
+  .btn {
+    margin-right:0.5em; 
+  }
 }
 
 .btn {
@@ -128,6 +131,10 @@
   &-googleplus {@include button-color(#d34836, #FFF);}
   &-diaspora {@include button-color(#313739, #FFF);}
   &-mastodon {@include button-color(#282c37, #FFF);}
+  &-whatsapp {@include button-color(#43d854, #FFF);}
+  &-linkedin {@include button-color(#0074A1, #FFF);}
+  &-buffer {@include button-color(#444, #FFF);}
+  &-pinterest {@include button-color(#bd081c, #FFF);}
 }
 
 /* 5.2 - Badges */
