@@ -5,12 +5,9 @@
   <article class="article-content" id="post-<?php the_ID(); ?>">
   <h1 class="page-title"><i class="fa fa-fw fa-file-text"></i> <?php the_title(); ?></h1>
   
-  <div class="article-thumbnail" >
-    <?php the_post_thumbnail( ); ?>
-  </div>
-  
-  <aside class="article-excerpt">
-    <div><?php the_excerpt(); ?></div>
+  <aside class="article-metadata">
+    <div class="article-thumbnail" ><?php the_post_thumbnail(); ?></div>
+    <div class="article-excerpt"><?php the_excerpt(); ?></div>
     
     <section class="article-taxonomies">
         <div class="article-categories article-taxonomies-container">
