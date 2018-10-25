@@ -308,9 +308,17 @@ ol {
       max-width: 100%;
       height: auto; }
   .article-content .article-excerpt {
-    padding: 0 0.5em 0 0.5em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
     font-style: italic;
     font-size: calc(3.5mm + 0.4vw); }
+  .article-content .article-author {
+    margin: 0;
+    padding: 0; }
+    .article-content .article-author .card-meta {
+      margin: 0; }
+  .article-content .bypass-flex-fontsize {
+    font-size: 4mm;
+    line-height: 1.5em; }
 
 /* 2.3 - Titles */
 h1, h2, h3, h4, h5, h6, h7 {

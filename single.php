@@ -7,7 +7,7 @@
   
   <aside class="article-metadata">
     <div class="article-thumbnail" ><?php the_post_thumbnail(); ?></div>
-    <aside class="card card-darker">
+    <aside class="card card-darker article-author bypass-flex-fontsize">
       <div class="media card-meta">
 	      <div class="media-left">  <? echo get_avatar( get_the_author_meta('user_email'), $size = '50'); ?></div>
 	      <div class="media-body"><author class="media-heading">Écrit par <?php the_author() ?></author><time> Le <?php the_time('l j F Y à H:i') ?> </time></div>
