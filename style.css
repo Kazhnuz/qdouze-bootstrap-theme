@@ -1422,3 +1422,11 @@ a.list-group-item:hover {
   display: flex;
   flex-direction: row;
   justify-content: flex-end; }
+
+/* 3. Article mixts */
+.article-taxonomies {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .article-taxonomies .badge:not(:last-child) {
+    margin-right: 0.5em; }
