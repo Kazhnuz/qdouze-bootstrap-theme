@@ -12,6 +12,23 @@
   <aside class="article-excerpt">
     <?php the_excerpt(); ?>
     
+    <section class="article-taxonomies">
+        <div class="article-categories article-taxonomies-container">
+          <?php $categories = get_the_category();
+          foreach( $categories as $category ) {
+            echo "<a href= '" . esc_url( get_category_link( $category->term_id ) ) . "' class='badge badge-category'>" . $category->cat_name . "</a>";
+          } ?>
+        </div>
+      
+        <div class="article-tags article-taxonomies-container">
+          <?php $tags = get_the_tags();
+          if ($tags) {
+            foreach( $tags as $tag ) {
+              echo "<a href= '" . esc_url( get_tag_link( $tag->term_id ) ) . "' class='badge badge-tag'>" . $tag->name . "</a>";
+            }
+          } ?>
+        </div>
+    </section>
     <hr />
   </aside>
     
