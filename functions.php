@@ -78,14 +78,14 @@ function crunchify_social_sharing_buttons($content) {
  
 		// Add sharing button at the end of page/page content
 		$content .= '<!-- Crunchify.com social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
-		$content .= '<div class="crunchify-social">';
-		$content .= '<h5>SHARE ON</h5> <a class="crunchify-link crunchify-twitter" href="'. $twitterURL .'" target="_blank">Twitter</a>';
-		$content .= '<a class="crunchify-link crunchify-facebook" href="'.$facebookURL.'" target="_blank">Facebook</a>';
-		$content .= '<a class="crunchify-link crunchify-whatsapp" href="'.$whatsappURL.'" target="_blank">WhatsApp</a>';
-		$content .= '<a class="crunchify-link crunchify-googleplus" href="'.$googleURL.'" target="_blank">Google+</a>';
-		$content .= '<a class="crunchify-link crunchify-buffer" href="'.$bufferURL.'" target="_blank">Buffer</a>';
-		$content .= '<a class="crunchify-link crunchify-linkedin" href="'.$linkedInURL.'" target="_blank">LinkedIn</a>';
-		$content .= '<a class="crunchify-link crunchify-pinterest" href="'.$pinterestURL.'" data-pin-custom="true" target="_blank">Pin It</a>';
+		$content .= '<div class="reagir share-buttons">';
+		$content .= '<a class="btn btn-twitter" href="'. $twitterURL .'" target="_blank"><i alt="twitter" class="fa fa-fw fa-twitter"></i></a>';
+		$content .= '<a class="btn btn-facebook" href="'.$facebookURL.'" target="_blank"><i alt="facebook" class="fa fa-fw fa-facebook"></i></a>';
+		$content .= '<a class="btn btn-whatsapp" href="'.$whatsappURL.'" target="_blank"><i alt="whatsapp" class="fa fa-fw fa-whatsapp"></i></a>';
+		$content .= '<a class="btn btn-googleplus" href="'.$googleURL.'" target="_blank"><i alt="google+" class="fa fa-fw fa-googleplus"></i></a>';
+		$content .= '<a class="btn btn-buffer" href="'.$bufferURL.'" target="_blank"><i alt="buffer" class="fa fa-fw fa-buffer"></i></a>';
+		$content .= '<a class="btn btn-linkedin" href="'.$linkedInURL.'" target="_blank"><i alt="linkedin" class="fa fa-fw fa-linkedin"></i></a>';
+		$content .= '<a class="btn btn-pinterest" href="'.$pinterestURL.'" data-pin-custom="true" target="_blank"><i alt="Pin It" class="fa fa-fw fa-pinterest"></i></a>';
 		$content .= '</div>';
 		
 		return $content;
