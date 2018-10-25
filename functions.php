@@ -40,3 +40,11 @@ register_taxonomy(
 );
 
 register_taxonomy_for_object_type( 'niveau', 'post' );
+
+/* 3. Excerpt support */
+
+function wpqdouze_post_supports() {
+	add_post_type_support( 'post', 'excerpt');
+}
+
+add_action( 'init', 'wpqdouze_post_supports' );
