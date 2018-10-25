@@ -75,15 +75,17 @@ function mypost_social_sharing_buttons($content) {
 		$bufferURL = 'https://bufferapp.com/add?url='.$mypost_URL.'&amp;text='.$mypost_Title;
 		$whatsappURL = 'whatsapp://send?text='.$mypost_Title . ' ' . $mypost_URL;
 		$linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$mypost_URL.'&amp;title='.$mypost_Title;
+		$diasporaURL = 'http://sharetodiaspora.github.io/?title=' . $mypost_Title . '&url=' . $mypost_URL;
  
 		// Based on popular demand added Pinterest too
 		$pinterestURL = 'https://pinterest.com/pin/create/button/?url='.$mypost_URL.'&amp;media='.$mypost_Thumbnail[0].'&amp;description='.$mypost_Title;
  
 		// Add sharing button at the end of page/page content
-		$content .= '<!-- mypost_.com social sharing. Get your copy here: http://mypost_.me/1VIxAsz -->';
+		$content .= '<!-- based on crunchify social sharing. Get your copy here: http://crunchify.me/1VIxAsz -->';
 		$content .= '<div class="reagir share-buttons">';
 		$content .= '<a class="btn btn-twitter" href="'. $twitterURL .'" target="_blank"><i alt="twitter" class="fa fa-fw fa-twitter"></i></a>';
 		$content .= '<a class="btn btn-facebook" href="'.$facebookURL.'" target="_blank"><i alt="facebook" class="fa fa-fw fa-facebook"></i></a>';
+		$content .= '<a title="Share to Diaspora*" class="btn btn-social btn-diaspora" href="'.$diasporaURL.'" target="_blank"><i class="fa fa-fw fa-diaspora"></i></a>';
 		$content .= '<a class="btn btn-whatsapp" href="'.$whatsappURL.'" target="_blank"><i alt="whatsapp" class="fa fa-fw fa-whatsapp"></i></a>';
 		// $content .= '<a class="btn btn-buffer" href="'.$bufferURL.'" target="_blank"><i alt="buffer" class="fa fa-fw fa-buffer"></i></a>';
 		$content .= '<a class="btn btn-linkedin" href="'.$linkedInURL.'" target="_blank"><i alt="linkedin" class="fa fa-fw fa-linkedin"></i></a>';
