@@ -68,7 +68,6 @@ function crunchify_social_sharing_buttons($content) {
 		// Construct sharing URL without using any script
 		$twitterURL = 'https://twitter.com/intent/tweet?text='.$crunchifyTitle.'&amp;url='.$crunchifyURL.'&amp;via=Crunchify';
 		$facebookURL = 'https://www.facebook.com/sharer/sharer.php?u='.$crunchifyURL;
-		$googleURL = 'https://plus.google.com/share?url='.$crunchifyURL;
 		$bufferURL = 'https://bufferapp.com/add?url='.$crunchifyURL.'&amp;text='.$crunchifyTitle;
 		$whatsappURL = 'whatsapp://send?text='.$crunchifyTitle . ' ' . $crunchifyURL;
 		$linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url='.$crunchifyURL.'&amp;title='.$crunchifyTitle;
@@ -82,7 +81,7 @@ function crunchify_social_sharing_buttons($content) {
 		$content .= '<a class="btn btn-twitter" href="'. $twitterURL .'" target="_blank"><i alt="twitter" class="fa fa-fw fa-twitter"></i></a>';
 		$content .= '<a class="btn btn-facebook" href="'.$facebookURL.'" target="_blank"><i alt="facebook" class="fa fa-fw fa-facebook"></i></a>';
 		$content .= '<a class="btn btn-whatsapp" href="'.$whatsappURL.'" target="_blank"><i alt="whatsapp" class="fa fa-fw fa-whatsapp"></i></a>';
-		$content .= '<a class="btn btn-buffer" href="'.$bufferURL.'" target="_blank"><i alt="buffer" class="fa fa-fw fa-buffer"></i></a>';
+		// $content .= '<a class="btn btn-buffer" href="'.$bufferURL.'" target="_blank"><i alt="buffer" class="fa fa-fw fa-buffer"></i></a>';
 		$content .= '<a class="btn btn-linkedin" href="'.$linkedInURL.'" target="_blank"><i alt="linkedin" class="fa fa-fw fa-linkedin"></i></a>';
 		$content .= '<a class="btn btn-pinterest" href="'.$pinterestURL.'" data-pin-custom="true" target="_blank"><i alt="Pin It" class="fa fa-fw fa-pinterest"></i></a>';
 		$content .= '</div>';
