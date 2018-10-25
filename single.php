@@ -10,7 +10,7 @@
   </div>
   
   <aside class="article-excerpt">
-    <?php the_excerpt(); ?>
+    <div><?php the_excerpt(); ?></div>
     
     <section class="article-taxonomies">
         <div class="article-categories article-taxonomies-container">
