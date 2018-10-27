@@ -11,6 +11,7 @@
 	<?php endif; ?>
 
   <?php wp_head(); ?>
+  <?php include(TEMPLATEPATH . '/components/opengraph.php'); ?>
 
 		<!-- mon icon -->
 	<link rel="shortcut icon" href="img/favicon.png">
