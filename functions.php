@@ -45,10 +45,12 @@ register_taxonomy_for_object_type( 'niveau', 'post' );
 
 function wpqdouze_post_supports() {
 	add_post_type_support( 'post', 'excerpt');
-	add_post_type_support( 'post', 'thumbnail');
 }
 
 add_action( 'init', 'wpqdouze_post_supports' );
+
+add_theme_support( 'post-thumbnails' );
+set_post_thumbnail_size( 825, 510, true );
 
 /* 4. Social Network */
 
