@@ -86,6 +86,12 @@ ol {
   p, em, p em {
     font-weight:300;
   }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
   .article-thumbnail {
     padding-bottom: 1em;
     text-align: center;
