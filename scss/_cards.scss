@@ -185,6 +185,14 @@ a.list-group-item:hover {
   @include border-radius();
   color:rgba(0, 0, 0, 0.7);
   box-shadow: $large-shadow;
+  &-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    & > p {
+      padding-bottom: 0;
+    }
+  }
 }
 
 .alert {
