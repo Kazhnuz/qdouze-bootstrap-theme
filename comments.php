@@ -119,6 +119,8 @@ $oddcomment = 'alt';
 
 </form>
 
+<p class="comment-info">Ce site utilise Akismet pour réduire les contenus indésirables (spam, etc). <a href="https://akismet.com/privacy/">En savoir plus sur la façon dont les données de vos commentaires sont traitées.</a></p>
+
 <?php endif; // If registration required and not logged in ?>
 
 </section>
