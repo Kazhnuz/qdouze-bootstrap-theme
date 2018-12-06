@@ -1479,3 +1479,6 @@ a.list-group-item:hover {
 .wp-caption-text {
   font-size: 0.9em;
   font-style: italic; }
+
+.wp-caption .aligncenter {
+  margin: auto; }
