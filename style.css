@@ -24,13 +24,13 @@
 .no-pills {
   list-style: none; }
 
-.align-center {
+.align-center, .aligncenter {
   text-align: center; }
 
-.align-left {
+.align-left, .alignleft {
   text-align: left; }
 
-.align-right {
+.align-right, .alignright {
   text-align: right; }
 
 /* 1.2 - Background colors */

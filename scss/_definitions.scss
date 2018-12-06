@@ -48,9 +48,9 @@ $color-font: #444;
 }
 
 .align {
-  &-center {text-align: center;}
-  &-left {text-align: left;}
-  &-right {text-align: right;}
+  &-center, &center {text-align: center;}
+  &-left, &left {text-align: left;}
+  &-right, &right {text-align: right;}
 }
 
 /* 1.2 - Background colors */
