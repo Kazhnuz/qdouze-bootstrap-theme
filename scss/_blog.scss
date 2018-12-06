@@ -183,6 +183,8 @@
 }
 
 .wp-caption {
+  margin: auto;
+
   img {
     max-width: 100%;
     height: auto;
@@ -191,9 +193,5 @@
   &-text {
     font-size: 0.9em;
     font-style: italic;
-  }
-  
-  &.aligncenter {
-    margin: auto;
   }
 }
